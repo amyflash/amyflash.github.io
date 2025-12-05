@@ -1,0 +1,919 @@
+<!DOCTYPE html>
+<html class="no-js" lang="zh-Hans">
+
+	<head><meta charset="UTF-8">
+
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="profile" href="https://gmpg.org/xfn/11">
+
+		<title>经典测试面试题 – 逍遥居</title>
+<meta name="robots" content="max-image-preview:large">
+	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+	<link rel="alternate" type="application/rss+xml" title="逍遥居 » Feed" href="/feed">
+<link rel="alternate" type="application/rss+xml" title="逍遥居 » 评论 Feed" href="/comments/feed">
+<script>
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.8.3"}};
+/*! This file is auto-generated */
+!function(s,n){var o,i,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),a=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===a[t]})}function u(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);for(var n=e.getImageData(16,16,1,1),a=0;a<n.data.length;a++)if(0!==n.data[a])return!1;return!0}function f(e,t,n,a){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!a(e,"\ud83e\udedf")}return!1}function g(e,t,n,a){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):s.createElement("canvas"),o=r.getContext("2d",{willReadFrequently:!0}),i=(o.textBaseline="top",o.font="600 32px Arial",{});return e.forEach(function(e){i[e]=t(o,e,n,a)}),i}function t(e){var t=s.createElement("script");t.src=e,t.defer=!0,s.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",i=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){s.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+g.toString()+"("+[JSON.stringify(i),f.toString(),p.toString(),u.toString()].join(",")+"));",a=new Blob([e],{type:"text/javascript"}),r=new Worker(URL.createObjectURL(a),{name:"wpTestEmojiSupports"});return void(r.onmessage=function(e){c(n=e.data),r.terminate(),t(n)})}catch(e){}c(n=g(i,f,p,u))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+</script>
+<style id="wp-emoji-styles-inline-css">
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<link rel="stylesheet" id="wp-block-library-css" href="/wp-includes/css/dist/block-library/style.min.css?ver=6.8.3" media="all">
+<style id="classic-theme-styles-inline-css">
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id="global-styles-inline-css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--accent: #cd2653;--wp--preset--color--primary: #000000;--wp--preset--color--secondary: #6d6d6d;--wp--preset--color--subtle-background: #dcd7ca;--wp--preset--color--background: #f5efe0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 18px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 26.25px;--wp--preset--font-size--x-large: 42px;--wp--preset--font-size--normal: 21px;--wp--preset--font-size--larger: 32px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel="stylesheet" id="twentytwenty-style-css" href="/wp-content/themes/twentytwenty/style.css?ver=2.9" media="all">
+<style id="twentytwenty-style-inline-css">
+.color-accent,.color-accent-hover:hover,.color-accent-hover:focus,:root .has-accent-color,.has-drop-cap:not(:focus):first-letter,.wp-block-button.is-style-outline,a { color: #cd2653; }blockquote,.border-color-accent,.border-color-accent-hover:hover,.border-color-accent-hover:focus { border-color: #cd2653; }button,.button,.faux-button,.wp-block-button__link,.wp-block-file .wp-block-file__button,input[type="button"],input[type="reset"],input[type="submit"],.bg-accent,.bg-accent-hover:hover,.bg-accent-hover:focus,:root .has-accent-background-color,.comment-reply-link { background-color: #cd2653; }.fill-children-accent,.fill-children-accent * { fill: #cd2653; }body,.entry-title a,:root .has-primary-color { color: #000000; }:root .has-primary-background-color { background-color: #000000; }cite,figcaption,.wp-caption-text,.post-meta,.entry-content .wp-block-archives li,.entry-content .wp-block-categories li,.entry-content .wp-block-latest-posts li,.wp-block-latest-comments__comment-date,.wp-block-latest-posts__post-date,.wp-block-embed figcaption,.wp-block-image figcaption,.wp-block-pullquote cite,.comment-metadata,.comment-respond .comment-notes,.comment-respond .logged-in-as,.pagination .dots,.entry-content hr:not(.has-background),hr.styled-separator,:root .has-secondary-color { color: #6d6d6d; }:root .has-secondary-background-color { background-color: #6d6d6d; }pre,fieldset,input,textarea,table,table *,hr { border-color: #dcd7ca; }caption,code,code,kbd,samp,.wp-block-table.is-style-stripes tbody tr:nth-child(odd),:root .has-subtle-background-background-color { background-color: #dcd7ca; }.wp-block-table.is-style-stripes { border-bottom-color: #dcd7ca; }.wp-block-latest-posts.is-grid li { border-top-color: #dcd7ca; }:root .has-subtle-background-color { color: #dcd7ca; }body:not(.overlay-header) .primary-menu > li > a,body:not(.overlay-header) .primary-menu > li > .icon,.modal-menu a,.footer-menu a, .footer-widgets a:where(:not(.wp-block-button__link)),#site-footer .wp-block-button.is-style-outline,.wp-block-pullquote:before,.singular:not(.overlay-header) .entry-header a,.archive-header a,.header-footer-group .color-accent,.header-footer-group .color-accent-hover:hover { color: #cd2653; }.social-icons a,#site-footer button:not(.toggle),#site-footer .button,#site-footer .faux-button,#site-footer .wp-block-button__link,#site-footer .wp-block-file__button,#site-footer input[type="button"],#site-footer input[type="reset"],#site-footer input[type="submit"] { background-color: #cd2653; }.header-footer-group,body:not(.overlay-header) #site-header .toggle,.menu-modal .toggle { color: #000000; }body:not(.overlay-header) .primary-menu ul { background-color: #000000; }body:not(.overlay-header) .primary-menu > li > ul:after { border-bottom-color: #000000; }body:not(.overlay-header) .primary-menu ul ul:after { border-left-color: #000000; }.site-description,body:not(.overlay-header) .toggle-inner .toggle-text,.widget .post-date,.widget .rss-date,.widget_archive li,.widget_categories li,.widget cite,.widget_pages li,.widget_meta li,.widget_nav_menu li,.powered-by-wordpress,.footer-credits .privacy-policy,.to-the-top,.singular .entry-header .post-meta,.singular:not(.overlay-header) .entry-header .post-meta a { color: #6d6d6d; }.header-footer-group pre,.header-footer-group fieldset,.header-footer-group input,.header-footer-group textarea,.header-footer-group table,.header-footer-group table *,.footer-nav-widgets-wrapper,#site-footer,.menu-modal nav *,.footer-widgets-outer-wrapper,.footer-top { border-color: #dcd7ca; }.header-footer-group table caption,body:not(.overlay-header) .header-inner .toggle-wrapper::before { background-color: #dcd7ca; }
+</style>
+<link rel="stylesheet" id="twentytwenty-fonts-css" href="/wp-content/themes/twentytwenty/assets/css/font-inter.css?ver=2.9" media="all">
+<link rel="stylesheet" id="twentytwenty-print-style-css" href="/wp-content/themes/twentytwenty/print.css?ver=2.9" media="print">
+<script src="/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script src="/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<script src="/wp-content/plugins/html5-audio-player/js/inline-player.js?ver=2.1.12" id="add-inline-player-js"></script>
+<script src="/wp-content/themes/twentytwenty/assets/js/index.js?ver=2.9" id="twentytwenty-js-js" defer data-wp-strategy="defer"></script>
+<link rel="https://api.w.org/" href="/wp-json/"><link rel="alternate" title="JSON" type="application/json" href="/wp-json/wp/v2/posts/2646"><link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd">
+<meta name="generator" content="WordPress 6.8.3">
+<link rel="canonical" href="/archives/2646">
+<link rel="shortlink" href="/?p=2646">
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="/wp-json/oembed/1.0/embed?url=http%3A%2F%2F%2Farchives%2F2646">
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="/wp-json/oembed/1.0/embed?url=http%3A%2F%2F%2Farchives%2F2646&amp;format=xml">
+            <style>
+                .h5ap_inline_player {
+                    display: inline-block;
+                    line-height: 1.45;
+                }
+                .h5ap_inline_player span {
+                    display: inline-block;
+                    line-height: 1.20;
+                    font-size: 130%;
+                    width: auto;
+                    height: auto;
+                    cursor: pointer;
+                }
+                .h5ap_inline_player span.dashicons-controls-pause {
+                    display: none;
+                }
+                </style>
+        	<script>document.documentElement.className = document.documentElement.className.replace( 'no-js', 'js' );</script>
+	
+	</head>
+
+	<body class="wp-singular post-template-default single single-post postid-2646 single-format-standard wp-embed-responsive wp-theme-twentytwenty singular enable-search-modal missing-post-thumbnail has-single-pagination showing-comments show-avatars footer-top-visible">
+
+		<a class="skip-link screen-reader-text" href="#site-content">跳至内容</a>
+		<header id="site-header" class="header-footer-group">
+
+			<div class="header-inner section-inner">
+
+				<div class="header-titles-wrapper">
+
+					
+						<button class="toggle search-toggle mobile-search-toggle" data-toggle-target=".search-modal" data-toggle-body-class="showing-search-modal" data-set-focus=".search-modal .search-field" aria-expanded="false">
+							<span class="toggle-inner">
+								<span class="toggle-icon">
+									<svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewbox="0 0 23 23"><path d="M38.710696,48.0601792 L43,52.3494831 L41.3494831,54 L37.0601792,49.710696 C35.2632422,51.1481185 32.9839107,52.0076499 30.5038249,52.0076499 C24.7027226,52.0076499 20,47.3049272 20,41.5038249 C20,35.7027226 24.7027226,31 30.5038249,31 C36.3049272,31 41.0076499,35.7027226 41.0076499,41.5038249 C41.0076499,43.9839107 40.1481185,46.2632422 38.710696,48.0601792 Z M36.3875844,47.1716785 C37.8030221,45.7026647 38.6734666,43.7048964 38.6734666,41.5038249 C38.6734666,36.9918565 35.0157934,33.3341833 30.5038249,33.3341833 C25.9918565,33.3341833 22.3341833,36.9918565 22.3341833,41.5038249 C22.3341833,46.0157934 25.9918565,49.6734666 30.5038249,49.6734666 C32.7048964,49.6734666 34.7026647,48.8030221 36.1716785,47.3875844 C36.2023931,47.347638 36.2360451,47.3092237 36.2726343,47.2726343 C36.3092237,47.2360451 36.347638,47.2023931 36.3875844,47.1716785 Z" transform="translate(-20 -31)"></path></svg>								</span>
+								<span class="toggle-text">搜索</span>
+							</span>
+						</button><!-- .search-toggle -->
+
+					
+					<div class="header-titles">
+
+						<div class="site-title faux-heading"><a href="/" rel="home">逍遥居</a></div><div class="site-description">琴棋书画诗酒花</div><!-- .site-description -->
+					</div><!-- .header-titles -->
+
+					<button class="toggle nav-toggle mobile-nav-toggle" data-toggle-target=".menu-modal" data-toggle-body-class="showing-menu-modal" aria-expanded="false" data-set-focus=".close-nav-toggle">
+						<span class="toggle-inner">
+							<span class="toggle-icon">
+								<svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="26" height="7" viewbox="0 0 26 7"><path fill-rule="evenodd" d="M332.5,45 C330.567003,45 329,43.4329966 329,41.5 C329,39.5670034 330.567003,38 332.5,38 C334.432997,38 336,39.5670034 336,41.5 C336,43.4329966 334.432997,45 332.5,45 Z M342,45 C340.067003,45 338.5,43.4329966 338.5,41.5 C338.5,39.5670034 340.067003,38 342,38 C343.932997,38 345.5,39.5670034 345.5,41.5 C345.5,43.4329966 343.932997,45 342,45 Z M351.5,45 C349.567003,45 348,43.4329966 348,41.5 C348,39.5670034 349.567003,38 351.5,38 C353.432997,38 355,39.5670034 355,41.5 C355,43.4329966 353.432997,45 351.5,45 Z" transform="translate(-329 -38)"></path></svg>							</span>
+							<span class="toggle-text">菜单</span>
+						</span>
+					</button><!-- .nav-toggle -->
+
+				</div><!-- .header-titles-wrapper -->
+
+				<div class="header-navigation-wrapper">
+
+					
+							<nav class="primary-menu-wrapper" aria-label="水平">
+
+								<ul class="primary-menu reset-list-style">
+
+								<li id="menu-item-5428" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-5428"><a href="/">首页</a></li>
+<li id="menu-item-6352" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6352"><a href="/td/">待办</a></li>
+<li id="menu-item-6353" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6353"><a href="/blog/">知识库</a></li>
+<li id="menu-item-6354" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6354"><a href="https://box.1006868.xyz:6443/">私有云盘</a></li>
+<li id="menu-item-6356" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6356"><a href="https://bk.1006868.xyz/chat/">私人助理</a></li>
+<li id="menu-item-6359" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6359"><a href="/%e5%a4%9a%e5%a4%9a%e8%af%b4%e4%b8%93%e9%a2%98">多多说专题</a></li>
+<li id="menu-item-5438" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5438"><a href="/sample-page">留言版</a></li>
+<li id="menu-item-6374" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6374"><a href="https://book.1006868.xyz/">私人图书馆</a></li>
+<li id="menu-item-6375" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6375"><a href="https://music.1006868.xyz/">私人影音室</a></li>
+<li id="menu-item-6376" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6376"><a href="https://chatroom.1006868.xyz/">私人聊天室</a></li>
+
+								</ul>
+
+							</nav><!-- .primary-menu-wrapper -->
+
+						
+						<div class="header-toggles hide-no-js">
+
+						
+							<div class="toggle-wrapper search-toggle-wrapper">
+
+								<button class="toggle search-toggle desktop-search-toggle" data-toggle-target=".search-modal" data-toggle-body-class="showing-search-modal" data-set-focus=".search-modal .search-field" aria-expanded="false">
+									<span class="toggle-inner">
+										<svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewbox="0 0 23 23"><path d="M38.710696,48.0601792 L43,52.3494831 L41.3494831,54 L37.0601792,49.710696 C35.2632422,51.1481185 32.9839107,52.0076499 30.5038249,52.0076499 C24.7027226,52.0076499 20,47.3049272 20,41.5038249 C20,35.7027226 24.7027226,31 30.5038249,31 C36.3049272,31 41.0076499,35.7027226 41.0076499,41.5038249 C41.0076499,43.9839107 40.1481185,46.2632422 38.710696,48.0601792 Z M36.3875844,47.1716785 C37.8030221,45.7026647 38.6734666,43.7048964 38.6734666,41.5038249 C38.6734666,36.9918565 35.0157934,33.3341833 30.5038249,33.3341833 C25.9918565,33.3341833 22.3341833,36.9918565 22.3341833,41.5038249 C22.3341833,46.0157934 25.9918565,49.6734666 30.5038249,49.6734666 C32.7048964,49.6734666 34.7026647,48.8030221 36.1716785,47.3875844 C36.2023931,47.347638 36.2360451,47.3092237 36.2726343,47.2726343 C36.3092237,47.2360451 36.347638,47.2023931 36.3875844,47.1716785 Z" transform="translate(-20 -31)"></path></svg>										<span class="toggle-text">搜索</span>
+									</span>
+								</button><!-- .search-toggle -->
+
+							</div>
+
+							
+						</div><!-- .header-toggles -->
+						
+				</div><!-- .header-navigation-wrapper -->
+
+			</div><!-- .header-inner -->
+
+			<div class="search-modal cover-modal header-footer-group" data-modal-target-string=".search-modal" role="dialog" aria-modal="true" aria-label="搜索">
+
+	<div class="search-modal-inner modal-inner">
+
+		<div class="section-inner">
+
+			<form role="search" aria-label="搜索：" method="get" class="search-form" action="/">
+	<label for="search-form-1">
+		<span class="screen-reader-text">
+			搜索：		</span>
+		<input type="search" id="search-form-1" class="search-field" placeholder="搜索…" value="" name="s">
+	</label>
+	<input type="submit" class="search-submit" value="搜索">
+</form>
+
+			<button class="toggle search-untoggle close-search-toggle fill-children-current-color" data-toggle-target=".search-modal" data-toggle-body-class="showing-search-modal" data-set-focus=".search-modal .search-field">
+				<span class="screen-reader-text">
+					关闭搜索				</span>
+				<svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewbox="0 0 16 16"><polygon fill="" fill-rule="evenodd" points="6.852 7.649 .399 1.195 1.445 .149 7.899 6.602 14.352 .149 15.399 1.195 8.945 7.649 15.399 14.102 14.352 15.149 7.899 8.695 1.445 15.149 .399 14.102"></polygon></svg>			</button><!-- .search-toggle -->
+
+		</div><!-- .section-inner -->
+
+	</div><!-- .search-modal-inner -->
+
+</div><!-- .menu-modal -->
+
+		</header><!-- #site-header -->
+
+		
+<div class="menu-modal cover-modal header-footer-group" data-modal-target-string=".menu-modal">
+
+	<div class="menu-modal-inner modal-inner">
+
+		<div class="menu-wrapper section-inner">
+
+			<div class="menu-top">
+
+				<button class="toggle close-nav-toggle fill-children-current-color" data-toggle-target=".menu-modal" data-toggle-body-class="showing-menu-modal" data-set-focus=".menu-modal">
+					<span class="toggle-text">关闭菜单</span>
+					<svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewbox="0 0 16 16"><polygon fill="" fill-rule="evenodd" points="6.852 7.649 .399 1.195 1.445 .149 7.899 6.602 14.352 .149 15.399 1.195 8.945 7.649 15.399 14.102 14.352 15.149 7.899 8.695 1.445 15.149 .399 14.102"></polygon></svg>				</button><!-- .nav-toggle -->
+
+				
+					<nav class="mobile-menu" aria-label="移动设备">
+
+						<ul class="modal-menu reset-list-style">
+
+						<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-5428"><div class="ancestor-wrapper"><a href="/">首页</a></div><!-- .ancestor-wrapper --></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6352"><div class="ancestor-wrapper"><a href="/td/">待办</a></div><!-- .ancestor-wrapper --></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6353"><div class="ancestor-wrapper"><a href="/blog/">知识库</a></div><!-- .ancestor-wrapper --></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6354"><div class="ancestor-wrapper"><a href="https://box.1006868.xyz:6443/">私有云盘</a></div><!-- .ancestor-wrapper --></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6356"><div class="ancestor-wrapper"><a href="https://bk.1006868.xyz/chat/">私人助理</a></div><!-- .ancestor-wrapper --></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6359"><div class="ancestor-wrapper"><a href="/%e5%a4%9a%e5%a4%9a%e8%af%b4%e4%b8%93%e9%a2%98">多多说专题</a></div><!-- .ancestor-wrapper --></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5438"><div class="ancestor-wrapper"><a href="/sample-page">留言版</a></div><!-- .ancestor-wrapper --></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6374"><div class="ancestor-wrapper"><a href="https://book.1006868.xyz/">私人图书馆</a></div><!-- .ancestor-wrapper --></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6375"><div class="ancestor-wrapper"><a href="https://music.1006868.xyz/">私人影音室</a></div><!-- .ancestor-wrapper --></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6376"><div class="ancestor-wrapper"><a href="https://chatroom.1006868.xyz/">私人聊天室</a></div><!-- .ancestor-wrapper --></li>
+
+						</ul>
+
+					</nav>
+
+					
+			</div><!-- .menu-top -->
+
+			<div class="menu-bottom">
+
+				
+			</div><!-- .menu-bottom -->
+
+		</div><!-- .menu-wrapper -->
+
+	</div><!-- .menu-modal-inner -->
+
+</div><!-- .menu-modal -->
+
+<main id="site-content">
+
+	
+<article class="post-2646 post type-post status-publish format-standard hentry category-management tag-208" id="post-2646">
+
+	
+<header class="entry-header has-text-align-center header-footer-group">
+
+	<div class="entry-header-inner section-inner medium">
+
+		
+			<div class="entry-categories">
+				<span class="screen-reader-text">
+					分类				</span>
+				<div class="entry-categories-inner">
+					<a href="/archives/category/management" rel="category tag">管理</a>				</div><!-- .entry-categories-inner -->
+			</div><!-- .entry-categories -->
+
+			<h1 class="entry-title">经典测试面试题</h1>
+		<div class="post-meta-wrapper post-meta-single post-meta-single-top">
+
+			<ul class="post-meta">
+
+									<li class="post-author meta-wrapper">
+						<span class="meta-icon">
+							<span class="screen-reader-text">
+								文章作者							</span>
+							<svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="18" height="20" viewbox="0 0 18 20"><path fill="" d="M18,19 C18,19.5522847 17.5522847,20 17,20 C16.4477153,20 16,19.5522847 16,19 L16,17 C16,15.3431458 14.6568542,14 13,14 L5,14 C3.34314575,14 2,15.3431458 2,17 L2,19 C2,19.5522847 1.55228475,20 1,20 C0.44771525,20 0,19.5522847 0,19 L0,17 C0,14.2385763 2.23857625,12 5,12 L13,12 C15.7614237,12 18,14.2385763 18,17 L18,19 Z M9,10 C6.23857625,10 4,7.76142375 4,5 C4,2.23857625 6.23857625,0 9,0 C11.7614237,0 14,2.23857625 14,5 C14,7.76142375 11.7614237,10 9,10 Z M9,8 C10.6568542,8 12,6.65685425 12,5 C12,3.34314575 10.6568542,2 9,2 C7.34314575,2 6,3.34314575 6,5 C6,6.65685425 7.34314575,8 9,8 Z"></path></svg>						</span>
+						<span class="meta-text">
+							<a href="/archives/author/amyflash">amyflash</a>						</span>
+					</li>
+										<li class="post-date meta-wrapper">
+						<span class="meta-icon">
+							<span class="screen-reader-text">
+								发布日期							</span>
+							<svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="18" height="19" viewbox="0 0 18 19"><path fill="" d="M4.60069444,4.09375 L3.25,4.09375 C2.47334957,4.09375 1.84375,4.72334957 1.84375,5.5 L1.84375,7.26736111 L16.15625,7.26736111 L16.15625,5.5 C16.15625,4.72334957 15.5266504,4.09375 14.75,4.09375 L13.3993056,4.09375 L13.3993056,4.55555556 C13.3993056,5.02154581 13.0215458,5.39930556 12.5555556,5.39930556 C12.0895653,5.39930556 11.7118056,5.02154581 11.7118056,4.55555556 L11.7118056,4.09375 L6.28819444,4.09375 L6.28819444,4.55555556 C6.28819444,5.02154581 5.9104347,5.39930556 5.44444444,5.39930556 C4.97845419,5.39930556 4.60069444,5.02154581 4.60069444,4.55555556 L4.60069444,4.09375 Z M6.28819444,2.40625 L11.7118056,2.40625 L11.7118056,1 C11.7118056,0.534009742 12.0895653,0.15625 12.5555556,0.15625 C13.0215458,0.15625 13.3993056,0.534009742 13.3993056,1 L13.3993056,2.40625 L14.75,2.40625 C16.4586309,2.40625 17.84375,3.79136906 17.84375,5.5 L17.84375,15.875 C17.84375,17.5836309 16.4586309,18.96875 14.75,18.96875 L3.25,18.96875 C1.54136906,18.96875 0.15625,17.5836309 0.15625,15.875 L0.15625,5.5 C0.15625,3.79136906 1.54136906,2.40625 3.25,2.40625 L4.60069444,2.40625 L4.60069444,1 C4.60069444,0.534009742 4.97845419,0.15625 5.44444444,0.15625 C5.9104347,0.15625 6.28819444,0.534009742 6.28819444,1 L6.28819444,2.40625 Z M1.84375,8.95486111 L1.84375,15.875 C1.84375,16.6516504 2.47334957,17.28125 3.25,17.28125 L14.75,17.28125 C15.5266504,17.28125 16.15625,16.6516504 16.15625,15.875 L16.15625,8.95486111 L1.84375,8.95486111 Z"></path></svg>						</span>
+						<span class="meta-text">
+							<a href="/archives/2646">2018年5月14日</a>
+						</span>
+					</li>
+					
+			</ul><!-- .post-meta -->
+
+		</div><!-- .post-meta-wrapper -->
+
+		
+	</div><!-- .entry-header-inner -->
+
+</header><!-- .entry-header -->
+
+	<div class="post-inner thin ">
+
+		<div class="entry-content">
+
+			<p>1、问：你在测试中发现了一个bug，但是开发经理认为这不是一个bug，你应该怎样解决？</p>
+<p>首先，将问题提交到缺陷管理库里面进行备案。</p>
+<p>然后，要获取判断的依据和标准：</p>
+<p>根据需求说明书、产品说明、设计文档等，确认实际结果是否与计划有不一致的地方，提供缺陷是否确认的直接依据；<br>
+如果没有文档依据，可以根据类似软件的一般特性来说明是否存在不一致的地方，来确认是否是缺陷；<br>
+根据用户的一般使用习惯，来确认是否是缺陷；<br>
+与设计人员、开发人员和客户代表等相关人员探讨，确认是否是缺陷；<br>
+合理的论述，向测试经理说明自己的判断的理由，注意客观、严谨，不参杂个人情绪。</p>
+<p>等待测试经理做出最终决定，如果仍然存在争议，可以通过公司政策所提供的渠道，向上级反映，并有上级做出决定。</p>
+<p>2、问：给你一个网站，你如何测试？</p>
+<p>首先，查找需求说明、网站设计等相关文档，分析测试需求。</p>
+<p>制定测试计划，确定测试范围和测试策略，一般包括以下几个部分：功能性测试；界面测试；性能测试；数据库测试；安全性测试；兼容性测试</p>
+<p>设计测试用例：</p>
+<p>功能性测试可以包括，但不限于以下几个方面：</p>
+<p>链接测试。链接是否正确跳转，是否存在空页面和无效页面，是否有不正确的出错信息返回。<br>
+提交功能的测试。<br>
+多媒体元素是否可以正确加载和显示。<br>
+多语言支持是否能够正确显示选择的语言等。<br>
+界面测试可以包括但不限于一下几个方面：</p>
+<p>页面是否风格统一，美观<br>
+页面布局是否合理，重点内容和热点内容是否突出<br>
+控件是否正常使用<br>
+对于必须但未安装的控件，是否提供自动下载并安装的功能<br>
+文字检查<br>
+性能测试一般从以下两个方面考虑：</p>
+<p>压力测试；负载测试；强度测试</p>
+<p>数据库测试要具体决定是否需要开展。数据库一般需要考虑连结性，对数据的存取操作，数据内容的验证等方面。</p>
+<p>安全性测试：</p>
+<p>基本的登录功能的检查<br>
+是否存在溢出错误，导致系统崩溃或者权限泄露<br>
+相关开发语言的常见安全性问题检查，例如SQL注入等<br>
+如果需要高级的安全性测试，确定获得专业安全公司的帮助，外包测试，或者获取支持<br>
+兼容性测试，根据需求说明的内容，确定支持的平台组合：</p>
+<p>浏览器的兼容性；<br>
+操作系统的兼容性；<br>
+软件平台的兼容性；<br>
+数据库的兼容性<br>
+开展测试，并记录缺陷。合理的安排调整测试进度，提前获取测试所需的资源，建立管理体系（例如，需求变更、风险、配置、测试文档、缺陷报告、人力资源等内容）。</p>
+<p>定期评审，对测试进行评估和总结，调整测试的内容。</p>
+<p>3、在搜索引擎中输入汉字就可以解析到对应的域名，请问如何用LoadRunner进行测试。</p>
+<p>建立测试计划，确定测试标准和测试范围<br>
+设计典型场景的测试用例，覆盖常用业务流程和不常用的业务流程等<br>
+根据测试用例，开发自动测试脚本和场景：<br>
+录制测试脚本：新建一个脚本（Web/HTML协议）；点击录制按钮，在弹出的对话框的URL中输入”about:blank”；在打开的浏览器中进行正常操作流程后，结束录制；调试脚本并保存，可能要注意到字符集的关联。</p>
+<p>设置测试场景：针对性能设置测试场景，主要判断在正常情况下，系统的平均事务响应时间是否达标；针对压力负载设置测试场景，主要判断在长时间处于满负荷或者超出系统承载能力的条件下，系统是否会崩溃；执行测试，获取测试结果，分析测试结果</p>
+<p>4、问：一台客户端有三百个客户与三百个客户端有三百个客户对服务器施压，有什么区别?</p>
+<p>300个用户在一个客户端上，会占用客户机更多的资源，而影响测试的结果。线程之间可能发生干扰，而产生一些异常。<br>
+300个用户在一个客户端上，需要更大的带宽。<br>
+IP地址的问题，可能需要使用IP Spoof来绕过服务器对于单一IP地址最大连接数的限制。<br>
+所有用户在一个客户端上，不必考虑分布式管理的问题；而用户分布在不同的客户端上，需要考虑使用控制器来整体调配不同客户机上的用户。同时，还需要给予相应的权限配置和防火墙设置。<br>
+5、试述软件的概念和特点？软件复用的含义？构件包括哪些？</p>
+<p>软件是计算机系统中与硬件相互依存的另一部分，与计算机系统操作有关的计算机程序、规程、规则，以及可能有的文件、文档及数据。</p>
+<p>软件复用(SoftWare Reuse)是将已有软件的各种有关知识用于建立新的软件，以缩减软件开发和维护的花费。软件复用是提高软件生产力和质量的一种重要技术。早期的软件复用主要是代码级复用，被复用的知识专指程序，后来扩大到包括领域知识、开发经验、设计决定、体系结构、需求、设计、代码和文档等一切有关方面。</p>
+<p>可以被复用的软件成分一般称作可复用构件</p>
+<p>6、软件生存周期及其模型是什么？</p>
+<p>软件生存周期（Software life cycle）又称为软件生命期，生存期。是指从形成开发软件概念起，所开发的软件使用以后，知道失去使用价值消亡为止的整个过程。一般来说，整个生存周期包括计划（定义）、开发、运行（维护）三个时期，每个时期又划分为若干个阶段。每个阶段有明确的任务。</p>
+<p>周期模型（典型的几种）：</p>
+<p>瀑布模型<br>
+快速原型模型：快速原型模型允许在需求分析阶段对软件的需求进行初步而非完全的分析和定义，快速设计开发出软件系统的原型，该原型向用户展示待开发软件的全部或部分功能和性能；用户对该原型进行测试评定，给出具体改进意见以丰富细化软件需求；开发人员据此对软件进行修改完善，直至用户满意认可之后，进行软件的完整实现及测试、维护。<br>
+迭代模型：迭代包括产生产品发布（稳定、可执行的产品版本）的全部开发活动和要使用该发布必需的所有其他外围元素。在某种程度上，开发迭代是一次 完整地经过所有工作流程的过程：需求分析、设计、实施和测试工作流程。实质上，它类似小型的瀑布式项目。RUP认为，所有的阶段都可以细分为迭代。每一次 的迭代都会产生一个可以发布的产品，这个产品是最终产品的一个子集。<br>
+生命周期阶段：</p>
+<p>软件计划与可行性分析<br>
+需求分析<br>
+软件设计<br>
+编码<br>
+软件测试<br>
+运行与维护</p>
+<p>7、什么是软件测试？软件测试的目的与原则</p>
+<p>在规定的条件下对程序进行操作，以发现程序错误，衡量软件质量，并对其是否能满足设计要求进行评估的过程。</p>
+<p>软件测试的目的：</p>
+<p>测试是程序的执行过程，目的在于发现错误<br>
+一个成功的测试用例在于发现至今未发现的错误<br>
+一个成功的测试是发现了至今未发现的错误的测试<br>
+确保产品完成了它所承诺或公布的功能，并且用户可以访问到的功能都有明确的书面说明。<br>
+确保产品满足性能和效率的要求<br>
+确保产品是健壮的和适应用户环境的<br>
+软件测试的原则：</p>
+<p>测试用例中一个必须部分是对预期输出或接过进行定义<br>
+程序员应避免测试自己编写的程序<br>
+编写软件的组织不应当测试自己编写的软件<br>
+应当彻底检查每个测试的执行结果<br>
+测试用例的编写不仅应当根据有效和预料到的输入情况，而且也应当根据无效和未预料到的输入情况<br>
+检擦程序是否“未做其应该做的”仅是测试的一半，测试的另一半是检查程序是否“做了其不应该做的”<br>
+应避免测试用例用后即弃，除非软件本身就是个一次性的软件<br>
+计划测试工作时不应默许假定不会发现错误<br>
+程序某部分存在更多错误的可能性，与该部分已经发现错误的数量成正比<br>
+软件测试是一项极富创造性，极具智力的挑战性的工作<br>
+8、软件配置管理的作用？软件配置包括什么？</p>
+<p>软件配置管理（Software Configuration Management，SCM）是一种标识、组织和控制修改的技术。软件配置管理应用于整个软件工程过程。在软件建立时变更是不可避免的，而变更加剧了项目中软件开发者之间的混乱。SCM活动的目标就是为了标识变更、控制变更、确保变更正确实现并向其他有关人员报告变更。从某种角度讲，SCM是一种标识、组织和控制修改的技术，目的是使错误降为最小并最有效地提高生产效率。</p>
+<p>软件配置包括如下内容：配置项识别、工作空间管理、版本控制、变更控制、状态报告、配置审计</p>
+<p>9、什么是软件质量？</p>
+<p>概括地说，软件质量就是“软件与明确的和隐含的定义的需求相一致的程度”。具体地说，软件质量是软件符合明确叙述的功能和性能需求、文档中明确描述 的开发标准、以及所有专业开发的软件都应具有的隐含特征的程度。 影响软件质量的主要因素，这些因素是从管理角度对软件质量的度量。可划分为三组，分别反应用户在使用软件产品时的三种观点。正确性、健壮性、效率、完整性、可用性、风险（产品运行）；可理解性、可维修性、灵活性、可测试性（产品修改）；可移植性、可再用性、互运行性（产品转移）。</p>
+<p>10、目前主要的测试用例设计方法是什么？</p>
+<p>白盒测试：逻辑覆盖、循环覆盖、基本路径覆盖</p>
+<p>黑盒测试：边界值分析法、等价类划分、错误猜测法、因果图法、状态图法、测试大纲法、随机测试、场景法</p>
+<p>11、软件的安全性应从哪几个方面去测试？</p>
+<p>软件安全性测试包括程序、数据库安全性测试。根据系统安全指标不同测试策略也不同。</p>
+<p>用户认证安全的测试要考虑问题： 明确区分系统中不同用户权限 、系统中会不会出现用户冲突 、系统会不会因用户的权限的改变造成混乱 、用户登陆密码是否是可见、可复制 、是否可以通过绝对途径登陆系统（拷贝用户登陆后的链接直接进入系统）、用户退出系统后是否删除了所有鉴权标记，是否可以使用后退键而不通过输入口令进入 系统 、系统网络安全的测试要考虑问题 、测试采取的防护措施是否正确装配好，有关系统的补丁是否打上 、模拟非授权攻击，看防护系统是否坚固 、采用成熟的网络漏洞检查工具检查系统相关漏洞（即用最专业的黑客攻击工具攻击试一下，现在最常用的是 NBSI 系列和 IPhacker IP ） 、采用各种木马检查工具检查系统木马情况 、采用各种防外挂工具检查系统各组程序的外挂漏洞<br>
+数据库安全考虑问题： 系统数据是否机密（比如对银行系统，这一点就特别重要，一般的网站就没有太高要求）、系统数据的完整性（我刚刚结束的企业实名核查服务系统中就曾存在数据 的不完整，对于这个系统的功能实现有了障碍） 、系统数据可管理性 、系统数据的独立性 、系统数据可备份和恢复能力（数据备份是否完整，可否恢复，恢复是否可以完整）</p>
+<p>12、什么是测试用例 什么是测试脚本 两者的关系是什么？</p>
+<p>为实施测试而向被测试系统提供的输入数据、操作或各种环境设置以及期望结果的一个特定的集合。</p>
+<p>测试脚本是为了进行自动化测试而编写的脚本。</p>
+<p>测试脚本的编写必须对应相应的测试用例</p>
+<p>13、简述什么是静态测试、动态测试、黑盒测试、白盒测试、α测试 β测试</p>
+<p>静态测试是不运行程序本身而寻找程序代码中可能存在的错误或评估程序代码的过程。<br>
+动态测试是实际运行被测程序，输入相应的测试实例，检查运行结果与预期结果的差异，判定执行结果是否符合要求，从而检验程序的正确性、可靠性和有效性，并分析系统运行效率和健壮性等性能。<br>
+黑盒测试一般用来确认软件功能的正确性和可操作性,目的是检测软件的各个功能是否能得以实现,把被测试的程序当作一个黑盒,不考虑其内部结构,在知道该程序的输入和输出之间的关系或程序功能的情况下,依靠软件规格说明书来确定测试用例和推断测试结果的正确性。<br>
+白盒测试根据软件内部的逻辑结构分析来进行测试,是基于代码的测试，测试人员通过阅读程序代码或者通过使用开发工具中的单步调试来判断软件的质量，一般黑盒测试由项目经理在程序员开发中来实现。<br>
+α测试是由一个用户在开发环境下进行的测试，也可以是公司内部的用户在模拟实际操作环境下进行的受控测试，Alpha测试不能由程序员或测试员完成。<br>
+β测试是软件的多个用户在一个或多个用户的实际使用环境下进行的测试。开发者通常不在测试现场，Beta测试不能由程序员或测试员完成。</p>
+<p>14、软件质量保证体系是什么 国家标准中与质量保证管理相关的几个标准是什么?他们的编号和全称是什么?</p>
+<p>SQA由一套软件工程过程和方法组成，以保证（软件的）质量。SQA贯穿整个软件开发过程，(它)应包括需求文档评审、代码控制、代码评审、变更管理、配置管理、版本管理和软件测试。</p>
+<p>软件质量保证（SQA-Software Quality Assurance）是建立一套有计划，有系统的方法，来向管理层保证拟定出的标准、步骤、实践和方法能够正确地被所有项目所采用。软件质量保证的目的是使软件过程对于管理人员来说是可见的。它通过对软件产品和活动进行评审和审计来验证软件是合乎标准的。软件质量保证组在项目开始时就一起参与建立计划、标准和过程。这些将使软件项目满足机构方针的要求。</p>
+<p>15、软件产品质量特性是什么?</p>
+<p>功能性：适应性、准确性、互操作性、依从性、安全性。</p>
+<p>可靠性：成熟性、容错性、易恢复性。</p>
+<p>可使用性：易理解性、易学习性、易操作性。</p>
+<p>效率：时间特性、资源特性。</p>
+<p>可维护性：易分析性、易变更性、稳定性、易测试性。</p>
+<p>可移植性： 适应性、易安装性、遵循性、易替换性</p>
+<p>16、软件测试的策略是什么?</p>
+<p>软件测试策略：在一定的软件测试标准、测试规范的指导下，依据测试项目的特定环境约束而规定的软件测试的原则、方式、方法的集合。</p>
+<p>17、软件测试分为几个阶段 各阶段的测试策略和要求是什么?</p>
+<p>和开发过程相对应，测试过程会依次经历单元测试、集成测试、系统测试、验收测试四个主要阶段：</p>
+<p>单元测试：单元测试是针对软件设计的最小单位––程序模块甚至代码段进行正确性检验的测试工作，通常由开发人员进行。<br>
+集成测试：集成测试是将模块按照设计要求组装起来进行测试，主要目的是发现与接口有关的问题。由于在产品提交到测试部门前，产品开发小组都要进行联合调试，因此在大部分企业中集成测试是由开发人员来完成的。<br>
+系统测试：系统测试是在集成测试通过后进行的，目的是充分运行系统，验证各子系统是否都能正常工作并完成设计的要求。它主要由测试部门进行，是测试部门最大最重要的一个测试，对产品的质量有重大的影响。<br>
+验收测试：验收测试以需求阶段的《需求规格说明书》为验收标准，测试时要求模拟实际用户的运行环境。对于实际项目可以和客户共同进行，对于产品来说就是最后一次的系统测试。测试内容为对功能模块的全面测试，尤其要进行文档测试。<br>
+单元测试测试策略：</p>
+<p>自顶向下的单元测试策略：比孤立单元测试的成本高很多，不是单元测试的一个好的选择。</p>
+<p>自底向上的单元测试策略：比较合理的单元测试策略，但测试周期较长。</p>
+<p>孤立单元测试策略：最好的单元测试策略。</p>
+<p>集成测试的测试策略：</p>
+<p>大爆炸集成：适应于一个维护型项目或被测试系统较小</p>
+<p>自顶向下集成：适应于产品控制结构比较清晰和稳定；高层接口变化较小；底层接口未定义或经常可能被修改；产口控制组件具有较大的技术风险，需要尽早被验证；希望尽早能看到产品的系统功能行为。</p>
+<p>自底向上集成：适应于底层接口比较稳定；高层接口变化比较频繁；底层组件较早被完成。</p>
+<p>基于进度的集成<br>
+     优点：具有较高的并行度；能够有效缩短项目的开发进度。<br>
+     缺点：桩和驱动工作量较大；有些接口测试不充分；有些测试重复和浪费。</p>
+<p>系统测试的测试策略：</p>
+<p>数据和数据库完整性测试；功能测试；用户界面测试；性能评测；负载测试；强度测试；容量测试；安全性和访问控制测试；故障转移和恢复测试；配置测试；安装测试；加密测试；可用性测试；版本验证测试；文档测试</p>
+<p>18、软件测试各个阶段通常完成什么工作？各个阶段的结果文件是什么？包括什么内容？</p>
+<p>单元测试阶段：各独立单元模块在与系统地其他部分相隔离的情况下进行测试，单元测试针对每一个程序模块进行正确性校验，检查各个程序模块是否正确地实现了规定的功能。生成单元测试报告，提交缺陷报告。</p>
+<p>集成测试阶段：集成测试是在单元测试的基础上，测试在将所有的软件单元按照概要设计规格说明的要求组装成模块、子系统或系统的过程中各部分工作是否达到或实现相应技术指标及要求的活动。该阶段生成集成测试报告，提交缺陷报告。</p>
+<p>系统测试阶段：将通过确认测试的软件，作为整个给予计算机系统的一个元素，与计算机硬件、外设、某些支持软件、数据和人员等其他系统元素结合在一起，在实际运行环境下，对计算机系统进行全面的功能覆盖。该阶段需要提交测试总结和缺陷报告。</p>
+<p>19、测试人员在软件开发过程中的任务是什么？</p>
+<p>1、尽可能早的找出系统中的Bug；<br>
+2、避免软件开发过程中缺陷的出现；<br>
+3、衡量软件的品质，保证系统的质量；<br>
+4、关注用户的需求，并保证系统符合用户需求。<br>
+总的目标是：确保软件的质量。</p>
+<p>20、在您以往的工作中，一条软件缺陷（或者叫Bug）记录都包含了哪些内容？如何提交高质量的软件缺陷（Bug）记录？</p>
+<p>一条Bug记录最基本应包含：</p>
+<p>bug编号；<br>
+bug严重级别，优先级；<br>
+bug产生的模块；<br>
+首先要有bug摘要，阐述bug大体的内容；<br>
+bug对应的版本；<br>
+bug详细现象描述，包括一些截图、录像….等等；<br>
+bug出现时的测试环境，产生的条件即对应操作步骤；</p>
+<p>高质量的Bug记录：<br>
+1) 通用UI要统一、准确<br>
+缺陷报告的UI要与测试的软件UI保持一致，便于查找定位。<br>
+2) 尽量使用业界惯用的表达术语和表达方法<br>
+使用业界惯用的表达术语和表达方法，保证表达准确，体现专业化。<br>
+3) 每条缺陷报告只包括一个缺陷<br>
+每条缺陷报告只包括一个缺陷，可以使缺陷修正者迅速定位一个缺陷，集中精力每次只修正一个缺陷。校验者每次只校验一个缺陷是否已经正确修正。<br>
+4) 不可重现的缺陷也要报告<br>
+首先缺陷报告必须展示重现缺陷的能力。不可重现的缺陷要尽力重现，若尽力之后仍不能重现，仍然要报告此缺陷，但在报告中要注明无法再现，缺陷出现的频率。<br>
+5) 明确指明缺陷类型<br>
+根据缺陷的现象，总结判断缺陷的类型。例如，即功能缺陷、界面缺陷、数据缺陷，合理化建议这是最常见的缺陷或缺陷类型，其他形式的缺陷或缺陷也从属于其中某种形式。<br>
+6) 明确指明缺陷严重等级和优先等级<br>
+时刻明确严重等级和优先等级之间的差别。高严重问题可能不值得解决，小装饰性问题可能被当作高优先级。<br>
+7) 描述 (Description) ，简洁、准确，完整，揭示缺陷实质，记录缺陷或缺陷出现的位置<br>
+描述要准确反映缺陷的本质内容，简短明了。为了便于在软件缺陷管理数据库中寻找制定的测试缺陷，包含缺陷发生时的用户界面（UI）是个良好的习惯。例如记录对话框的标题、菜单、按钮等控件的名称。<br>
+8) 短行之间使用自动数字序号，使用相同的字体、字号、行间距<br>
+短行之间使用自动数字序号，使用相同的字体、字号、行间距，可以保证各条记录格式一致，做到规范专业。<br>
+9) 每一个步骤尽量只记录一个操作<br>
+保证简洁、条理井然，容易重复操作步骤。<br>
+10) 确认步骤完整，准确，简短<br>
+保证快速准确的重复缺陷，“完整”即没有缺漏，“准确”即步骤正确，“简短”即没有多余的步骤。<br>
+11) 根据缺陷，可选择是否进行图象捕捉<br>
+为了直观的观察缺陷或缺陷现象，通常需要附加缺陷或缺陷出现的界面，以图片的形式作为附件附着在记录的“附件”部分。为了节省空间，又能真实反映缺陷或缺陷本质，可以捕捉缺陷或缺陷产生时的全屏幕，活动窗口和局部区域。为了迅速定位、修正缺陷或缺陷位置，通常要求附加中文对照图。<br>
+ 附加必要的特殊文档和个人建议和注解<br>
+如果打开某个特殊的文档而产生的缺陷或缺陷，则必须附加该文档，从而可以迅速再现缺陷或缺陷。有时，为了使缺陷或缺陷修正者进一步明确缺陷或缺陷的表现，可以附加个人的修改建议或注解。<br>
+12) 检查拼写和语法缺陷<br>
+在提交每条缺陷或缺陷之前，检查拼写和语法，确保内容正确，正确的描述缺陷。<br>
+13) 尽量使用短语和短句，避免复杂句型句式<br>
+软件缺陷管理数据库的目的是便于定位缺陷，因此，要求客观的描述操作步骤，不需要修饰性的词汇和复杂的句型，增强可读性。<br>
+以上概括了报告测试缺陷的规范要求，随着软件的测试要求不同，测试者经过长期测试，积累了相应的测试经验，将会逐渐养成良好的专业习惯，不断补充新的规范书写要求。此外，经常阅读、学习其他测试工程师的测试缺陷报告，结合自己以前的测试缺陷报告进行对比和思考，可以不断提高技巧。<br>
+14) 缺陷描述内容<br>
+缺陷描述的内容可以包含缺陷操作步骤，实际结果和期望结果。操作步骤可以方便开发人员再现缺陷进行修正，有些开发的再现缺陷能力很差，虽然他明白你所指的缺陷，但就是无法再现特别是对系统不熟悉的新加入开发人员，介绍步骤可以方便他们再现。实际结果可以让开发明白错误是什么，期望结果可以让开发了解正确的结果应该是如何。</p>
+<p>21、黑盒测试和白盒测试是软件测试的两种基本方法，请分别说明各自的优点和缺点！</p>
+<p>黑盒测试的优点有：比较简单，不需要了解程序内部的代码及实现；与软件的内部实现无关；  从用户角度出发，能很容易的知道用户会用到哪些功能，会遇到哪些问题；基于软件开发文档，所以也能知道软件实现了文档中的哪些功能；在做软件自动化测试时较为方便。</p>
+<p>黑盒测试的缺点有：不可能覆盖所有的代码，覆盖率较低，大概只能达到总代码量的30%；自动化测试的复用性较低。</p>
+<p>白盒测试的优点有：帮助软件测试人员增大代码的覆盖率，提高代码的质量，发现代码中隐    藏的问题。</p>
+<p>白盒测试的缺点有：程序运行会有很多不同的路径，不可能测试所有的运行路径；测试基于代码，只能测试开发人员做的对不对，而不能知道设计的正确与否，可能会漏掉一些功能需求；系统庞大时，测试开销会非常大。</p>
+<p>22、如何测试一个纸杯？</p>
+<p>功能度：用水杯装水看漏不漏；水能不能被喝到</p>
+<p>安全性：杯子有没有毒或细菌</p>
+<p>可靠性：杯子从不同高度落下的损坏程度</p>
+<p>可移植性：杯子在不同的地方、温度等环境下是否都可以正常使用</p>
+<p>兼容性：杯子是否能够容纳果汁、白水、酒精、汽油等</p>
+<p>易用性：杯子是否烫手、是否有防滑措施、是否方便饮用</p>
+<p>用户文档：使用手册是否对杯子的用法、限制、使用条件等有详细描述</p>
+<p>疲劳测试：将杯子盛上水（案例一）放24小时检查泄漏时间和情况；盛上汽油（案例二）放24小时检查泄漏时间和情况等</p>
+<p>压力测试：用根针并在针上面不断加重量，看压强多大时会穿透</p>
+<p>22、测试计划工作的目的是什么？测试计划文档的内容应该包括什么？其中哪些是最重要的？</p>
+<p>软件测试计划是指导测试过程的纲领性文件：</p>
+<p>领导能够根据测试计划进行宏观调控，进行相应资源配置等<br>
+测试人员能够了解整个项目测试情况以及项目测试不同阶段的所要进行的工作等<br>
+便于其他人员了解测试人员的工作内容，进行有关配合工作<br>
+包含了产品概述、测试策略、测试方法、测试区域、测试配置、测试周期、测试资源、测试交流、风险分析等内容。借助软件测试计划，参与测试的项目成员，尤其是测试管理人员，可以明确测试任务和测试方法，保持测试实施过程的顺畅沟通，跟踪和控制测试进度，应对测试过程中的各种变更。</p>
+<p>测试计划编写6要素（5W1H）：</p>
+<p>why——为什么要进行这些测试；<br>
+what—测试哪些方面，不同阶段的工作内容；<br>
+when—测试不同阶段的起止时间；<br>
+where—相应文档，缺陷的存放位置，测试环境等；<br>
+who—项目有关人员组成，安排哪些测试人员进行测试；<br>
+how—如何去做，使用哪些测试工具以及测试方法进行测试<br>
+测试计划和测试详细规格、测试用例之间是战略和战术的关系，测试计划主要从宏观上规划测试活动的范围、方法和资源配置，而测试详细规格、测试用例是完成测试任务的具体战术。所以其中最重要的是测试测试策略和测试方法（最好是能先评审）。</p>
+<p>23、黑盒测试的测试用例常见设计方法都有哪些？请分别以具体的例子来说明这些方法在测试用例设计工作中的应用。</p>
+<p>1）等价类划分： 等价类是指某个输入域的子集合.在该子集合中,各个输入数据对于揭露程序中的错误都是等效的.并合理地假定:测试某等价类的代表值就等于对这一类其它值的测试.因此,可以把全部输入数据合理划分为若干等价类,在每一个等价类中取一个数据作为测试的输入条件,就可以用少量代表性的测试数据.取得较好的测试结果.等价类划分可有两种不同的情况:有效等价类和无效等价类.</p>
+<p>2）边界值分析法：是对等价类划分方法的补充。测试工作经验告诉我,大量的错误是发生在输入或输出范围的边界上,而不是发生在输入输出范围的内部.因此针对各种边界情况设计测试用例,可以查出更多的错误.</p>
+<p>使用边界值分析方法设计测试用例,首先应确定边界情况.通常输入和输出等价类的边界,就是应着重测试的边界情况.应当选取正好等于,刚刚大于或刚刚小于边界的值作为测试数据,而不是选取等价类中的典型值或任意值作为测试数据.</p>
+<p>3）错误猜测法：基于经验和直觉推测程序中所有可能存在的各种错误, 从而有针对性的设计测试用例的方法.</p>
+<p>错误推测方法的基本思想: 列举出程序中所有可能有的错误和容易发生错误的特殊情况,根据他们选择测试用例. 例如, 在单元测试时曾列出的许多在模块中常见的错误. 以前产品测试中曾经发现的错误等, 这些就是经验的总结. 还有, 输入数据和输出数据为0的情况. 输入表格为空格或输入表格只有一行. 这些都是容易发生错误的情况. 可选择这些情况下的例子作为测试用例.</p>
+<p>4）因果图方法：前面介绍的等价类划分方法和边界值分析方法,都是着重考虑输入条件,但未考虑输入条件之间的联系, 相互组合等. 考虑输入条件之间的相互组合,可能会产生一些新的情况. 但要检查输入条件的组合不是一件容易的事情, 即使把所有输入条件划分成等价类,他们之间的组合情况也相当多. 因此必须考虑采用一种适合于描述对于多种条件的组合,相应产生多个动作的形式来考虑设计测试用例. 这就需要利用因果图（逻辑模型）. 因果图方法最终生成的就是判定表. 它适合于检查程序输入条件的各种组合情况.</p>
+<p>5）正交表分析法：可能因为大量的参数的组合而引起测试用例数量上的激增，同时，这些测试用例并没有明显的优先级上的差距，而测试人员又无法完成这么多数量的测试，就可以通过正交表来进行缩减一些用例，从而达到尽量少的用例覆盖尽量大的范围的可能性。</p>
+<p>6）场景分析方法：指根据用户场景来模拟用户的操作步骤，这个比较类似因果图，但是可能执行的深度和可行性更好。</p>
+<p>7）状态图法：通过输入条件和系统需求说明得到被测系统的所有状态，通过输入条件和状态得出输出条件；通过输入条件、输出条件和状态得出被测系统的测试用例。</p>
+<p>8）大纲法：大纲法是一种着眼于需求的方法，为了列出各种测试条件，就将需求转换为大纲的形式。大纲表示为树状结构，在根和每个叶子结点之间存在唯一的路径。大纲中的每条路径定义了一个特定的输入条件集合，用于定义测试用例。树中叶子的数目或大纲中的路径给出了测试所有功能所需测试用例的大致数量。</p>
+<p>24、详细的描述一个测试活动完整的过程。（供参考，本答案主要是瀑布模型的做法）</p>
+<p>项目经理通过和客户的交流，完成需求文档，由开发人员和测试人员共同完成需求文档的评审，评审的内容包括：需求描述不清楚的地方和可能有明显冲突或者无法实现的功能的地方。项目经理通过综合开发人员，测试人员以及客户的意见，完成项目计划。然后SQA进入项目，开始进行统计和跟踪</p>
+<p>开发人员根据需求文档完成需求分析文档，测试人员进行评审，评审的主要内容包括是否有遗漏或双方理解不同的地方。测试人员完成测试计划文档，测试计划包括的内容上面有描述。</p>
+<p>测试人员根据修改好的需求分析文档开始写测试用例，同时开发人员完成概要设计文档，详细设计文档。此两份文档成为测试人员撰写测试用例的补充材料。</p>
+<p>测试用例完成后，测试和开发需要进行评审。</p>
+<p>测试人员搭建环境</p>
+<p>开发人员提交第一个版本，可能存在未完成功能，需要说明。测试人员进行测试，发现BUG后提交给BugZilla。</p>
+<p>开发提交第二个版本，包括Bug Fix以及增加了部分功能，测试人员进行测试。</p>
+<p>重复上面的工作，一般是3-4个版本后BUG数量减少，达到出货的要求。</p>
+<p>如果有客户反馈的问题，需要测试人员协助重现并重新测试。</p>
+<p>26、BUG管理工具的跟踪过程（用BugZilla为例子）</p>
+<p>测试人员发现了BUG，提交到Bugzilla中，状态为new，BUG的接受者为开发接口人员</p>
+<p>开发接口将BUG分配给相关的模块的开发人员，状态修改为已分配，开发人员和测试确认BUG，如果是本人的BUG，则设置为接收；如果是别的开发人员的问题，则转发出去，由下一个开发人员来进行此行为；如果认为不是问题，则需要大家讨论并确认后，拒绝这个BUG，然后测试人员关闭此问题。</p>
+<p>如果开发人员接受了BUG，并修改好以后，将BUG状态修改为已修复，并告知测试在哪个版本中可以测试。</p>
+<p>测试人员在新版本中测试，如果发现问题依然存在，则拒绝验证；如果已经修复，则关闭BUG。</p>
+<p>27、您认为在测试人员同开发人员的沟通过程中，如何提高沟通的效率和改善沟通的效果？维持测试人员同开发团队中其他成员良好的人际关系的关键是什么？</p>
+<p>尽量面对面的沟通，其次是能直接通过电话沟通，如果只能通过Email等非及时沟通工具的话，强调必须对特性的理解深刻以及能表达清楚。</p>
+<p>运用一些测试管理工具如TestDirector进行管理也是较有效的方法，同时要注意在TestDirector中对BUG有准确的描述。</p>
+<p>在团队中建立测试人员与开发人员良好沟通中注意以下几点：</p>
+<p>一真诚、二是团队精神、三是在专业上有共同语言、四是要对事不对人，工作至上</p>
+<p>当然也可以通过直接指出一些小问题，而不是进入BUG Tracking System来增加对方的好感。</p>
+<p>28、你对测试最大的兴趣在哪里？为什么？</p>
+<p>回答这个面试题，没有固定统一的答案，但可能是许多企业都会问到的。提供以下答案供考：</p>
+<p>最大的兴趣，感觉这是一个有挑战性的工作；</p>
+<p>测试是一个经验行业，工作越久越能感觉到做好测试的难度和乐趣</p>
+<p>通过自己的工作，能使软件产品越来越完善，从中体会到乐趣</p>
+<p>回答此类问题注意以下几个方面：</p>
+<p>尽可能的切合招聘企业的技术路线来表达你的兴趣，例如该企业是数据库应用的企业，那么表示你的兴趣在数据库的测试，并且希望通过测试提升自己的数据库掌握能力。</p>
+<p>表明你做测试的目的是为了提升能力，也是为了更好的做好测试；提升能力不是为了以后转开发或其他的，除非用人企业有这样的安排。</p>
+<p>不要过多的表达你的兴趣在招聘企业的范畴这外。比如招聘企业是做财务软件的，可是你表现出来的是对游戏软件的兴趣；或招聘是做JAVA开发的，而你的兴趣是在C类语言程序的开发。</p>
+<p>29、你自认为测试的优势在哪里？</p>
+<p>该面试也没有固定不变的答案，但可参考以下几点，并结合自身特点：</p>
+<p>有韧性、有耐心、做事有条理性、喜欢面对挑战、有信心做好每一件事情、较强的沟通能力、从以前的经理处都得到了很好的评价表明我做的很好</p>
+<p>33、简述你在以前的工作中做过哪些事情，比较熟悉什么。参考答案如下。</p>
+<p>我过去的主要工作是系统测试和自动化测试。在系统测试中，主要是对BOSS系统的业务逻辑功能，以及软交换系统的Class 5特性进行测试。性能测试中，主要是进行的压力测试，在各个不同数量请求的情况下，获取系统响应时间以及系统资源消耗情况。自动化测试主要是通过自己写脚本以及一些第三方工具的结合来测试软交换的特性测试。</p>
+<p>在测试中，我感觉对用户需求的完全准确的理解非常重要。另外，就是对BUG的管理，要以需求为依据，并不是所有BUG均需要修改。</p>
+<p>测试工作需要耐心和细致，因为在新版本中，虽然多数原来发现的BUG得到了修复，但原来正确的功能也可能变得不正确。因此要注重迭代测试和回归测试。</p>
+<p>34、在C/C++中static有什么用途？（请至少说明两种）<br>
+1)在函数体，一个被声明为静态的变量在这一函数被调用过程中维持其值不变。<br>
+2) 在模块内（但在函数体外），一个被声明为静态的变量可以被模块内所用函数访问，但不能被模块外其它函数访问。它是一个本地的全局变量。<br>
+3) 在模块内，一个被声明为静态的函数只可被这一模块内的其它函数调用。那就是，这个函数被限制在声明它的模块的本地范围内使用</p>
+<p>35、引用与指针有什么区别？<br>
+    1) 引用必须被初始化，指针不必。<br>
+    2) 引用初始化以后不能被改变，指针可以改变所指的对象。<br>
+    3) 不存在指向空值的引用，但是存在指向空值的指针。</p>
+<p>36、Internet采用哪种网络协议？该协议的主要层次结构？Internet物理地址和IP地址转换采用什么协议？</p>
+<p>TCP/IP协议主要层次结构为： 应用层/传输层/网络层/数链路层。</p>
+<p>ARP (Address Resolution Protocol)（地据址解析协议）</p>
+<p>37、说说你对集成测试中自顶向下集成和自底向上集成两个策略的理解，要谈出它们各自的优缺点和主要适应于哪种类型测试；</p>
+<p>自顶向下集成</p>
+<p>优点：较早地验证了主要控制和判断点；按深度优先可以首先实现和验证一个完整的软件功能；功能较早证实，带来信心；只需一个驱动，减少驱动器开发的费用；支持故障隔离。</p>
+<p>缺点：柱的开发量大；底层验证被推迟；底层组件测试不充分。</p>
+<p>适应于产品控制结构比较清晰和稳定；高层接口变化较小；底层接口未定义或经常可能被修改；产口控制组件具有较大的技术风险，需要尽早被验证；希望尽早能看到产品的系统功能行为。</p>
+<p>2、自底向上集成</p>
+<p>优点：对底层组件行为较早验证；工作最初可以并行集成，比自顶向下效率高；减少了桩的工作量；支持故障隔离。</p>
+<p>缺点：驱动的开发工作量大；对高层的验证被推迟，设计上的错误不能被及时发现。<br>
+适应于底层接口比较稳定；高层接口变化比较频繁；底层组件较早被完成。</p>
+<p>38、软件验收测试包括正式验收测试、alpha测试、beta测试三种测试。</p>
+<p>39、系统测试的策略有很多种的，有性能测试、负载测试、强度测试、易用性测试、安全测试、配置测试、安装测试、文档测试、故障恢复测试、用户界面测试、恢复测试、分布测试、可用性测试。</p>
+<p>40、设计系统测试计划需要参考的项目文档有软件测试计划、软件需求工件、和迭代计划</p>
+<p>41．通过画因果图来写测试用例的步骤为<strong><em>、</em></strong>、<strong><em>、</em></strong>及把因果图转换为状态图共五个步骤。 利用因果图生成测试用例的基本步骤是：</p>
+<p>§ 分析软件规格说明描述中，哪些是原因（即输入条件或输入条件的等价类），哪些是结果（即输出条件），并给每个原因和结果赋予一个标识符。</p>
+<p>§ 分析软件规格说明描述中的语义，找出原因与结果之间，原因与原因之间对应的是什么关系? 根据这些关系，画出因果图。</p>
+<p>§ 由于语法或环境限制，有些原因与原因之间，原因与结果之间的组合情况不可能出现。为表明这些特殊情况，在因果图上用一些记号标明约束或限制条件。 § 把因果图转换成判定表。</p>
+<p>§ 把判定表的每一列拿出来作为依据，设计测试用例。</p>
+<p>43、请说出这些测试最好由那些人员完成，测试的是什么？</p>
+<p>代码、函数级测试一般由白盒测试人员完成，他们针对每段代码或函数进行正确性检验，检查其是否正确的实现了规定的功能。</p>
+<p>模块、组件级测试主要依据是程序结构设计测试模块间的集成和调用关系，一般由测试人员完成。</p>
+<p>系统测试在于模块测试与单元测试的基础上进行测试。了解系统功能与性能，根据测试用例进行全面的测试。</p>
+<p>44、 设计测试用例时应该考虑哪些方面，即不同的测试用例针对那些方面进行测试？</p>
+<p>设计测试用例时需要注意的是，除了对整体流程及功能注意外，还要注意强度测试、性能测试、压力测试、边界值测试、稳定性测试、安全性测试等多方面。（测试用例需要考虑的四个基本要素是输入、输出、操作和测试环境；另外，测试用例需要考虑的是测试类型（功能、性能、安全……），这部分可以参照TP做答。此外，还需要考虑用例的重要性和优先级）</p>
+<p>45、 在windows下保存一个文本文件时会弹出保存对话框，如果为文件名建立测试用例，等价类应该怎样划分？</p>
+<p>单字节，如A；双字节， AA、我我；特殊字符 /‘。‘；、=-等；保留字，如com；文件格式为8.3格式的；文件名格式为非8.3格式的；/,\,*等九个特殊字符。</p>
+<p>46、假设有一个文本框要求输入10个字符的邮政编码，对于该文本框应该怎样划分等价类？</p>
+<p>特殊字符，如10个*或￥；英文字母，如ABCDefghik；小于十个字符，如123；大于十个字符，如11111111111；数字和其他混合，如123AAAAAAA；空字符；保留字符</p>
+<p>47.软件测试项目从什么时候开始，？为什么？<br>
+软件测试应该在需求分析阶段就介入,因为测试的对象不仅仅是程序编码,应该对软件开发过程中产生的所有产品都测试,并且软件缺陷存在放大趋势.缺陷发现的越晚,修复它所花费的成本就越大.</p>
+<p>48、什么是回归测试?</p>
+<p>回归测试: (regression   testing): 回归测试有两类：用例回归和错误回归；用例回归是过一段时间以后再回头对以前使用过的用例在重新进行测试，看看会重新发现问题。错误回归，就是在新版本中，对以前版本中出现并修复的缺陷进行再次验证，并以缺陷为核心，对相关修改的部分进行测试的方法。</p>
+<p>49.单元测试、集成测试、系统测试的侧重点是什么？<br>
+  单元测试针对的是软件设计的最小单元–程序模块（面向过程中是函数、过程；面向对象中是类。）,进行正确性检验的测试工作,在于发现每个程序模块内部可能存在的差错.一般有两个步骤:人工静态检查\动态执行跟踪<br>
+  集成测试针对的是通过了单元测试的各个模块所集成起来的组件进行检验,其主要内容是各个单元模块之间的接口,以及各个模块集成后所实现的功能.<br>
+  系统测试针对的是集成好的软件系统，作为整个计算机系统的一个元素,与计算机硬件\外设\某些支持软件\数据和人员等其他系统元素结合在一起,要在实际的运行环境中,对计算机系统进行一系列的集成测试和确认测试.</p>
+<p>51.一个测试工程师应具备那些素质？<br>
+1、责任心2、沟通能力3、团队合作精神4、耐心、细心、信心5、时时保持怀疑态度，并且有缺陷预防的意识6、具备一定的编程经验</p>
+<p>53：你所了解的的软件测试类型都有哪些，简单介绍一下。</p>
+<p>按测试策略分类：1、静态与动态测试2、黑盒与白盒测试 3、手工和自动测试 4、冒烟测试 5、回归测试；</p>
+<p>按测试阶段分类：单元测试、集成测试、系统测试；</p>
+<p>其他常见测试方法：1、功能测试 2、性能测试 3、压力测试 4、负载测试 5、易用性测试 6、安装测试 7、界面测试 8、配置测试 9、文档测试 10、兼容性测试 11、安全性测试 12、恢复测试</p>
+<p>54：你认为做好测试计划工作的关键是什么？</p>
+<p>明确测试的目标，增强测试计划的实用性</p>
+<p>编写软件测试计划得重要目的就是使测试过程能够发现更多的软件缺陷，因此软件测试计划的价值取决于它对帮助管理测试项目，并且找出软件潜在的缺陷。因此，软件测试计划中的测试范围必须高度覆盖功能需求，测试方法必须切实可行，测试工具并且具有较高的实用性，便于使用，生成的测试结果直观、准确</p>
+<p>坚持“5W”规则，明确内容与过程</p>
+<p>“5W”规则指的是“What（做什么）”、“Why（为什么做）”、“When（何时做）”、“Where（在哪里）”、“How（如何做）”。利用“5W”规则创建软件测试计划，可以帮助测试团队理解测试的目的（Why），明确测试的范围和内容（What），确定测试的开始和结束日期（When），指出测试的方法和工具（How），给出测试文档和软件的存放位置（Where）。</p>
+<p>采用评审和更新机制，保证测试计划满足实际需求</p>
+<p>测试计划写作完成后，如果没有经过评审，直接发送给测试团队，测试计划内容的可能不准确或遗漏测试内容，或者软件需求变更引起测试范围的增减，而测试计划的内容没有及时更新，误导测试执行人员。</p>
+<p>分别创建测试计划与测试详细规格、测试用例</p>
+<p>应把详细的测试技术指标包含到独立创建的测试详细规格文档，把用于指导测试小组执行测试过程的测试用例放到独立创建的测试用例文档或测试用例管理数据库中。测试计划和测试详细规格、测试用例之间是战略和战术的关系，测试计划主要从宏观上规划测试活动的范围、方法和资源配置，而测试详细规格、测试用例是完成测试任务的具体战术。</p>
+<p>55：您认为做好测试用例设计工作的关键是什么？</p>
+<p>白盒测试用例设计的关键是以较少的用例覆盖尽可能多的内部程序逻辑结果</p>
+<p>黑盒法用例设计的关键同样也是以较少的用例覆盖模块输出和输入接口。不可能做到完全测试，以最少的用例在合理的时间内发现最多的问题</p>
+<p>56：你的测试职业发展目标是什么？</p>
+<p>测试经验越多，测试能力越高。所以我的职业发展是需要时间累积的，一步步向着高级测试工程师奔去。而且我也有初步的职业规划，前3年累积测试经验，不断的更新自己改正自己，做好测试任务。</p>
+<p>57：测试结束的标准是什么？</p>
+<p>从微观上来说，在测试计划中定义，比如系统在一定性能下平稳运行72小时，目前Bug Tracking System中，本版本中没有一般严重的BUG，普通BUG的数量在3以下，BUG修复率90%以上等等参数，然后由开发经理，测试经理，项目经理共同签字认同版本Release。</p>
+<p>如果说宏观的，则是当这个软件彻底的消失以后，测试就结束了。</p>
+<p>59、一套完整的测试应该由哪些阶段组成？<br>
+可行性分析、需求分析、概要设计、详细设计、编码、单元测试、集成测试、系统测试、验收测试</p>
+<p>61、您是否了解以往所工作的企业的软件开发过程？如果了解，请试述一个完整的开发过程需要完成哪些工作？分别由哪些不同的角色来完成这些工作？您在以往的测试工作中都曾经具体从事过哪些工作？其中最擅长哪部分工作？</p>
+<p>开发过程—需求调研（需求人员）、需求分析（需求人员）、概要设计（设计人员）、详细设计(设计人员)、编码（开发人员）</p>
+<p>测试过程—需求评审、系统测试设计、概要设计评审、集成测试设计、详细设计评审、单元测试设计、测试执行</p>
+<p>测试工作的整个过程都做过，擅长做测试设计</p>
+<p>过程决定质量，软件的过程改进正是为了提高软件的质量，将过往的种种经验教训积累起来。</p>
+<p>62、测试用例设计的原则是什么？目前主要的测试用例设计方法有哪些？</p>
+<p>代表性：能够代表并覆盖各种合理的和不合理、合法的和非法的、边界的和越界的、以及极限的输入数据、操作和环境设置等.</p>
+<p>可判定性：即测试执行结果的正确性是可判定的，每一个测试用例都应有相应的期望结果.</p>
+<p>可再现性：即对同样的测试用例，系统的执行结果应当是相同的。</p>
+<p>方法有等价类、边界值、因果图、状态图、正交法、大纲法</p>
+<p>63、面向对象的测试用例设计有几种方法？如何实现？</p>
+<p>给类中的每个构造函数设计一组测试用例</p>
+<p>组合类中的类变量、实例变量</p>
+<p>组合类中的各种方法</p>
+<p>根据前置条件和后置条件设计测试用例</p>
+<p>根据代码设计测试用例</p>
+<p>64、LoadRunner分为哪三个模块？请简述各模块的主要功能。</p>
+<p>Virtual User Generator：用于录制脚步</p>
+<p>Mercury LoadRunner Controller：用于创建、运行和监控场景</p>
+<p>Mercury LoadRunner Analysis：用于分析测试结果</p>
+<p>65、你对测试最大的兴趣在哪里？为什么？</p>
+<p>最大的兴趣就是测试有难度，有挑战性！做测试越久越能感觉到做好测试有多难。曾经在无忧测试网上看到一篇文章，是关于如何做好一名测试工程师。一共罗列了11，12点，有部分是和人的性格有关，有部分需要后天的努力。但除了性格有关的1，2点我没有把握，其他点我都很有信心做好它。</p>
+<p>刚开始进入测试行业时，对测试的认识是从无忧测试网上了解到的一些资料，当时是冲着做测试需要很多技能才能做的好，虽然入门容易，但做好很难，比开发更难，虽然当时我很想做开发（学校专业课我基本上不缺席，因为我喜欢我的专业），但看到测试比开发更难更有挑战性，想做好测试的意志就更坚定了。</p>
+<p>我觉得做测试整个过程中有2点让我觉得很有难度（对我来说，有难度的东西我就非常感兴趣），第一是测试用例的设计，因为测试的精华就在测试用例的设计上了，要在版本出来之前，把用例写好，用什么测试方法写？（也就是测试计划或测试策略），如果你刚测试一个新任务时，你得花一定的时间去消化业务需求和技术基础，业务需求很好理解（多和产品经理和开发人员沟通就能达到目的），而技术基础可就没那么简单了，这需要你自觉的学习能力，比如说网站吧，最基本的技术知识你要知道网站内部是怎么运作的的，后台是怎么响应用户请求的？测试环境如何搭建？这些都需要最早的学好。至少在开始测试之前能做好基本的准备，可能会遇到什么难题？需求细节是不是没有确定好？这些问题都能在设计用例的时候发现。</p>
+<p>第二是发现BUG的时候了，这应该是测试人员最基本的任务了，一般按测试用例开始测试就能发现大部分的bug，还有一部分bug需要测试的过程中更了解所测版本的情况获得更多信息，补充测试用例，测试出bug。还有如何发现bug？这就需要在测试用例有效的情况下，通过细心和耐心去发现bug了，每个用例都有可能发现bug，每个地方都有可能出错，所以测试过程中思维要清晰（测试过程数据流及结果都得看仔细了，bug都在里面发现的）。如何描述bug也很有讲究，bug在什么情况下会产生，如果条件变化一点点，就不会有这个bug，以哪些最少的操作步骤就能重现这个bug，这个bug产生的规律是什么？如果你够厉害的话，可以帮开发人员初步定位问题。</p>
+<p>66、您所熟悉的软件测试类型都有哪些？请试着分别比较这些不同的测试类型的区别与联系（如功能测试、性能测试……）<br>
+　　测试类型有：功能测试，性能测试，界面测试。<br>
+　　功能测试在测试工作中占的比例最大，功能测试也叫黑盒测试。是把测试对象看作一个黑盒子。利用黑盒测试法进行动态测试时，需要测试软件产品的功能，不需测试软件产品的内部结构和处理过程。采用黑盒技术设计测试用例的方法有：等价类划分、边界值分析、错误推测、因果图和综合策略。<br>
+　　性能测试是通过自动化的测试工具模拟多种正常、峰值以及异常负载条件来对系统的各项性能指标进行测试。负载测试和压力测试都属于性能测试，两者可以结合进行。通过负载测试，确定在各种工作负载下系统的性能，目标是测试当负载逐渐增加时，系统各项性能指标的变化情况。压力测试是通过确定一个系统的瓶颈或者不能接收的性能点，来获得系统能提供的最大服务级别的测试。<br>
+　　界面测试，界面是软件与用户交互的最直接的层，界面的好坏决定用户对软件的第一印象。而且设计良好的界面能够引导用户自己完成相应的操作，起到向导的作用。同时界面如同人的面孔，具有吸引用户的直接优势。设计合理的界面能给用户带来轻松愉悦的感受和成功的感觉，相反由于界面设计的失败，让用户有挫败感，再实用强大的功能都可能在用户的畏惧与放弃中付诸东流。<br>
+　　区别在于，功能测试关注产品的所有功能上，要考虑到每个细节功能，每个可能存在的功能问题。性能测试主要关注于产品整体的多用户并发下的稳定性和健壮性。界面测试更关注于用户体验上，用户使用该产品的时候是否易用，是否易懂，是否规范（快捷键之类的），是否美观（能否吸引用户的注意力），是否安全（尽量在前台避免用户无意输入无效的数据，当然考虑到体验性，不能太粗鲁的弹出警告）？做某个性能测试的时候，首先它可能是个功能点，首先要保证它的功能是没问题的，然后再考虑该功能点的性能测试</p>
+<p>67、请试着比较一下黑盒测试、白盒测试、单元测试、集成测试、系统测试、验收测试的区别与联系。<br>
+　　黑盒测试：已知产品的功能设计规格，可以进行测试证明每个实现了的功能是否符合要求。<br>
+　　白盒测试：已知产品的内部工作过程，可以通过测试证明每种内部操作是否符合设计规格要求，所有内部成分是否以经过检查。<br>
+　　软件的黑盒测试意味着测试要在软件的接口处进行。这种方法是把测试对象看做一个黑盒子，测试人员完全不考虑程序内部的逻辑结构和内部特性，只依据程序的需求规格说明书，检查程序的功能是否符合它的功能说明。因此黑盒测试又叫功能测试或数据驱动测试。黑盒测试主要是为了发现以下几类错误：<br>
+　　1、是否有不正确或遗漏的功能？2、在接口上，输入是否能正确的接受？能否输出正确的结果？3、是否有数据结构错误或外部信息（例如数据文件）访问错误？4、性能上是否能够满足要求？5、是否有初始化或终止性错误？<br>
+　　软件的白盒测试是对软件的过程性细节做细致的检查。这种方法是把测试对象看做一个打开的盒子，它允许测试人员利用程序内部的逻辑结构及有关信息，设计或选择测试用例，对程序所有逻辑路径进行测试。通过在不同点检查程序状态，确定实际状态是否与预期的状态一致。因此白盒测试又称为结构测试或逻辑驱动测试。白盒测试主要是想对程序模块进行如下检查：<br>
+　　1、对程序模块的所有独立的执行路径至少测试一遍。<br>
+　　2、对所有的逻辑判定，取“真”与取“假”的两种情况都能至少测一遍。<br>
+　　3、在循环的边界和运行的界限内执行循环体。<br>
+　　4、测试内部数据结构的有效性，等等。<br>
+　　单元测试（模块测试）是开发者编写的一小段代码，用于检验被测代码的一个很小的、很明确的功能是否正确。通常而言，一个单元测试是用于判断某个特定条件（或者场景）下某个特定函数的行为。<br>
+　　单元测试是由程序员自己来完成，最终受益的也是程序员自己。可以这么说，程序员有责任编写功能代码，同时也就有责任为自己的代码编写单元测试。执行单元测试，就是为了证明这段代码的行为和我们期望的一致。<br>
+　　集成测试（也叫组装测试，联合测试）是单元测试的逻辑扩展。它的最简单的形式是：两个已经测试过的单元组合成一个组件，并且测试它们之间的接口。从这一层意义上讲，组件是指多个单元的集成聚合。在现实方案中，许多单元组合成组件，而这些组件又聚合成程序的更大部分。方法是测试片段的组合，并最终扩展进程，将您的模块与其他组的模块一起测试。最后，将构成进程的所有模块一起测试。<br>
+　　系统测试是将经过测试的子系统装配成一个完整系统来测试。它是检验系统是否确实能提供系统方案说明书中指定功能的有效方法。（常见的联调测试）<br>
+　　系统测试的目的是对最终软件系统进行全面的测试，确保最终软件系统满足产品需求并且遵循系统设计。<br>
+　　验收测试是部署软件之前的最后一个测试操作。验收测试的目的是确保软件准备就绪，并且可以让最终用户将其用于执行软件的既定功能和任务。<br>
+验收测试是向未来的用户表明系统能够像预定要求那样工作。经集成测试后，已经按照设计把所有的模块组装成一个完整的软件系统，接口错误也已经基本排除了，接着就应该进一步验证软件的有效性，这就是验收测试的任务，即软件的功能性能如同用户所合理期待的那样。</p>
+<p>68、当开发人员说不是BUG时，你如何应付？<br>
+　　开发人员说不是bug，有2种情况，一是需求没有确定，所以我可以这么做，这个时候可以找来产品经理进行确认，需不需要改动，3方商量确定好后再看要不要改。二是这种情况不可能发生，所以不需要修改，这个时候，我可以先尽可能的说出是BUG的依据是什么？如果被用户发现或出了问题，会有什么不良结果？程序员可能会给你很多理由，你可以对他的解释进行反驳。如果还是不行，那我可以给这个问题提出来,跟开发经理和测试经理进行确认,如果要修改就改,如果不要修改就不改。其实有些真的不是bug，我也只是建议的方式写进TD中，如果开发人员不修改也没有大问题。如果确定是bug的话，一定要坚持自己的立场，让问题得到最后的确认。</p>
+<p>69、为什么要在一个团队中开展软件测试工作？</p>
+<p>因为没有经过测试的软件很难在发布之前知道该软件的质量，就好比ISO质量认证一样，测试同样也需要质量的保证，这个时候就需要在团队中开展软件测试的工作。在测试的过程发现软件中存在的问题，及时让开发人员得知并修改问题，在即将发布时，从测试报告中得出软件的质量情况。</p>
+<p>71、一份测试计划应该包括哪些内容？</p>
+<p>背景、项目简介、目的、测试范围、测试策略、人员分工、资源要求、进度计划、参考文档、常用术语、提交文档、风险分析。</p>
+<p>72、针对于软件的行业背景，你如何理解软件的业务？</p>
+<p>阅读用户手册了解软件的功能和操作流程；看一些业务的专业书籍补充业务知识；如果有用户实际的数据，可以拿实际的数据进行参考；参考以前的用例和BUG报告；在使用软件的过程中多思考；多与产品经理交流。</p>
+<p>74、如何定位测试用例的作用？</p>
+<p>组织性：编写、组织性、功能覆盖、重复性、跟踪、测试确认</p>
+<p>76、什么是兼容性测试？请举例说明如何利用兼容性测试列表进行测试。</p>
+<p>主要验证软件产品在不同版本之间的兼容性。包括向下兼容和交错兼容，向下兼容是测试软件新版本保留它早期版本功能的情况，交错兼容是验证共同存在的两个相关但不相同的产品之间的兼容性。</p>
+<p>77、对某软件进行测试，发现在WIN98上运行得很慢，怎么判别是该软件存在问题还是其软硬件运行环境存在问题？</p>
+<p>看软件的运行环境要求。如果符合要求则是程序存在问题，若不符合要求则是硬件系统存在问题</p>
+<p>78、需求测试的注意事项有哪些？</p>
+<p>是否使用了公司的模板、文档内容是否符合规范、所有的需求是分级是否清析适当、所有的需求是否具有一致性、需求是否可行（即，该需求组合有解决方案）、需求可否用己知的约束来实现、需求是否足够（即，可以把它送到一个规范的开发组织，并有一个生产出所需要产品的合理的可能性）、所有的其它需求是交叉引用是否正确、用户描述是否清楚、是否用客户的语言来描述需求、每个需求描述是否清楚没有岐义，可以移交给一个独立的组去实现时也能理解、是否所有的需求都是可验证的、是否每条需求都具有独立性，即使发生了变化也不会影响其它需求、性能指标是否明确、非功能性需求是否得到充分表现、是否完整列出适用的标准或协议、标准和协议之间是否存在冲突</p>
+<p>81、主键、外键的作用，索引的优点与不足?</p>
+<p>　　答：主键：是表中的唯一标示键。作用：保证实体的完整性;加快数据库的操作速度;增加新的表记录时，数据库会自动检索新记录的主键值，不允许该值与其他表中记录的主键重复;数据库会按主键值的顺序显示记录，如果没有设定主键，则按输入的顺序显示记录。</p>
+<p>　　外键：是主键的从属，表示了两个表之间的联系。作用：使用外键可以避免冗余。</p>
+<p>索引的优点： 1、通过创建唯一性的索引，可以保证表中数据的唯一性; 2、加速数据的检索速度; 3、加快表与表之间的连接; 4、在使用分组与排序数据检索时，可以显著检索分组与排序的时间; 5、在查询的过程中使用优化隐藏器，提供系统性能。</p>
+<p>缺点： 1、创建索引需要时间，且随着数据量的增加而增加; 2、索引需要占用物理空间;</p>
+<pre class="prism-highlight line-numbers" data-start="1"><code class="language-null">    3、当对表中数据进行修改时，索引也要动态维护，降低了数据的维护速度。
+</code></pre>
+<p>84、性能测试的流程?</p>
+<p>　　1.测试需求分析2.测试计划制定与评审3.测试用例设计与开发4.测试执行与监控5.分析测试结果6.编写性能测试报告7.测试经验总结</p>
+<p>88、简述bug的生命周期?</p>
+<p>　　1， 有效地记录BUG 2， 使用BUG模板 3， 评价BUG优先级和严重性 4， BUG的生命 5， 维护BUG数据库</p>
+<p>89、缺陷记录应包含的内容?</p>
+<p>　　缺陷标识、缺陷类型、缺陷严重程度、缺陷产生可能性、缺陷优先级、缺陷状态、缺陷起源、缺陷来源、缺陷原因;</p>
+<p>91 您所熟悉的软件测试类型都有哪些?请试着分别比较这些不同的测试类型的区别与联系(如功能测试、性能测试……)</p>
+<p>　　易用性测试-界面的友好性，操作方便性等。</p>
+<p>　　功能测试-系统中功能性需求的满足</p>
+<p>　　安全性测试-系统是否存在安全隐患和漏洞</p>
+<p>　　性能测试-系统在大并发下的响应速度和健壮性</p>
+<p>93、您认为做好测试计划工作的关键是什么?</p>
+<p>　　了解项目或系统的业务需求</p>
+<p>　　和项目经理协调好，了解项目的进度计划安排情况</p>
+<p>95您认为做好测试用例设计工作的关键是什么?</p>
+<p>　　对业务和软件需求非常清楚，可以根据需求不同选择不同的测试用例设计</p>
+<p>96、.您以往的工作中是否曾开展过测试用例的评审工作?如果有，请描述测试用例评审的过程和评审的内容。</p>
+<p>　　评审计划-&gt;预审-&gt;评审;</p>
+<p>　　评审内容主要是测试用例对软件需求的覆盖程度，对于相关边界是否考虑，是否针对复杂流程准备多套测试数据，是否有专门针对非功能性需求的测试。</p>
+<p>98.您认为性能测试工作的目的是什么?做好性能测试工作的关键是什么?</p>
+<p>　　关键是测试脚本的录制，测试时候测试环境的干净。</p>
+<p>100、.您以往所从事的软件测试工作中，是否使用了一些工具来进行软件缺陷(Bug)的管理?如果有，请结合该工具描述软件缺陷(Bug)跟踪管理的流程。</p>
+<p>　　CQ，也可以使用BugFree等免费工具。</p>
+<p>101、.您如何看待软件过程改进?在您曾经工作过的企业中，是否有一些需要改进的东西呢?您期望的理想的测试人员的工作环境是怎样的?</p>
+<p>　　将先进的经验或思想固化到过程中，通过过程改进和能力提高来改进软件质量。</p>
+
+		</div><!-- .entry-content -->
+
+	</div><!-- .post-inner -->
+
+	<div class="section-inner">
+		
+		<div class="post-meta-wrapper post-meta-single post-meta-single-bottom">
+
+			<ul class="post-meta">
+
+									<li class="post-tags meta-wrapper">
+						<span class="meta-icon">
+							<span class="screen-reader-text">
+								标签							</span>
+							<svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewbox="0 0 18 18"><path fill="" d="M15.4496399,8.42490555 L8.66109799,1.63636364 L1.63636364,1.63636364 L1.63636364,8.66081885 L8.42522727,15.44178 C8.57869221,15.5954158 8.78693789,15.6817418 9.00409091,15.6817418 C9.22124393,15.6817418 9.42948961,15.5954158 9.58327627,15.4414581 L15.4486339,9.57610048 C15.7651495,9.25692435 15.7649133,8.74206554 15.4496399,8.42490555 Z M16.6084423,10.7304545 L10.7406818,16.59822 C10.280287,17.0591273 9.65554997,17.3181054 9.00409091,17.3181054 C8.35263185,17.3181054 7.72789481,17.0591273 7.26815877,16.5988788 L0.239976954,9.57887876 C0.0863319284,9.4254126 0,9.21716044 0,9 L0,0.818181818 C0,0.366312477 0.366312477,0 0.818181818,0 L9,0 C9.21699531,0 9.42510306,0.0862010512 9.57854191,0.239639906 L16.6084423,7.26954545 C17.5601275,8.22691012 17.5601275,9.77308988 16.6084423,10.7304545 Z M5,6 C4.44771525,6 4,5.55228475 4,5 C4,4.44771525 4.44771525,4 5,4 C5.55228475,4 6,4.44771525 6,5 C6,5.55228475 5.55228475,6 5,6 Z"></path></svg>						</span>
+						<span class="meta-text">
+							<a href="/archives/tag/%e6%b5%8b%e8%af%95" rel="tag">测试</a>						</span>
+					</li>
+					
+			</ul><!-- .post-meta -->
+
+		</div><!-- .post-meta-wrapper -->
+
+		
+	</div><!-- .section-inner -->
+
+	
+	<nav class="pagination-single section-inner" aria-label="文章">
+
+		<hr class="styled-separator is-style-wide" aria-hidden="true">
+
+		<div class="pagination-single-inner">
+
+			
+				<a class="previous-post" href="/archives/2642">
+					<span class="arrow" aria-hidden="true">←</span>
+					<span class="title"><span class="title-inner">Mysql新增自增长主键列</span></span>
+				</a>
+
+				
+				<a class="next-post" href="/archives/2656">
+					<span class="arrow" aria-hidden="true">→</span>
+						<span class="title"><span class="title-inner">yii2数据表里下划线对应view目录中划线</span></span>
+				</a>
+				
+		</div><!-- .pagination-single-inner -->
+
+		<hr class="styled-separator is-style-wide" aria-hidden="true">
+
+	</nav><!-- .pagination-single -->
+
+	
+</article><!-- .post -->
+
+</main><!-- #site-content -->
+
+
+	<div class="footer-nav-widgets-wrapper header-footer-group">
+
+		<div class="footer-inner section-inner">
+
+			
+			
+				<aside class="footer-widgets-outer-wrapper">
+
+					<div class="footer-widgets-wrapper">
+
+						
+							<div class="footer-widgets column-one grid-item">
+								<div class="widget_text widget widget_custom_html"><div class="widget_text widget-content"><h2 class="widget-title subheading heading-size-3">常用链接</h2><div class="textwidget custom-html-widget"><a href="https://www.perplexity.ai/">ai搜索</a><br>
+<a href="https://huggingface.co/models">模型下载</a>
+<a href="https://kb.amyflash.com/">接口工具</a>
+</div></div></div><div class="widget widget_tag_cloud"><div class="widget-content"><h2 class="widget-title subheading heading-size-3">标签</h2><nav aria-label="标签"><div class="tagcloud"><a href="/archives/tag/air" class="tag-cloud-link tag-link-45 tag-link-position-1" style="font-size: 8pt;" aria-label="air (2 项)">air</a>
+<a href="/archives/tag/angularjs" class="tag-cloud-link tag-link-212 tag-link-position-2" style="font-size: 15.736842105263pt;" aria-label="angularjs (12 项)">angularjs</a>
+<a href="/archives/tag/apache" class="tag-cloud-link tag-link-123 tag-link-position-3" style="font-size: 8pt;" aria-label="apache (2 项)">apache</a>
+<a href="/archives/tag/as3" class="tag-cloud-link tag-link-6 tag-link-position-4" style="font-size: 16.228070175439pt;" aria-label="as3 (13 项)">as3</a>
+<a href="/archives/tag/chrome" class="tag-cloud-link tag-link-90 tag-link-position-5" style="font-size: 8pt;" aria-label="chrome (2 项)">chrome</a>
+<a href="/archives/tag/createjs" class="tag-cloud-link tag-link-31 tag-link-position-6" style="font-size: 8pt;" aria-label="createjs (2 项)">createjs</a>
+<a href="/archives/tag/css3" class="tag-cloud-link tag-link-228 tag-link-position-7" style="font-size: 9.4736842105263pt;" aria-label="css3 (3 项)">css3</a>
+<a href="/archives/tag/date" class="tag-cloud-link tag-link-7 tag-link-position-8" style="font-size: 8pt;" aria-label="date (2 项)">date</a>
+<a href="/archives/tag/django" class="tag-cloud-link tag-link-197 tag-link-position-9" style="font-size: 9.4736842105263pt;" aria-label="django (3 项)">django</a>
+<a href="/archives/tag/docker" class="tag-cloud-link tag-link-239 tag-link-position-10" style="font-size: 12.543859649123pt;" aria-label="docker (6 项)">docker</a>
+<a href="/archives/tag/eos" class="tag-cloud-link tag-link-214 tag-link-position-11" style="font-size: 11.684210526316pt;" aria-label="eos (5 项)">eos</a>
+<a href="/archives/tag/eth" class="tag-cloud-link tag-link-198 tag-link-position-12" style="font-size: 9.4736842105263pt;" aria-label="ETH (3 项)">ETH</a>
+<a href="/archives/tag/flash" class="tag-cloud-link tag-link-12 tag-link-position-13" style="font-size: 12.543859649123pt;" aria-label="flash (6 项)">flash</a>
+<a href="/archives/tag/flashdevelop" class="tag-cloud-link tag-link-28 tag-link-position-14" style="font-size: 8pt;" aria-label="flashdevelop (2 项)">flashdevelop</a>
+<a href="/archives/tag/flv" class="tag-cloud-link tag-link-63 tag-link-position-15" style="font-size: 8pt;" aria-label="flv (2 项)">flv</a>
+<a href="/archives/tag/git" class="tag-cloud-link tag-link-152 tag-link-position-16" style="font-size: 12.543859649123pt;" aria-label="git (6 项)">git</a>
+<a href="/archives/tag/google" class="tag-cloud-link tag-link-116 tag-link-position-17" style="font-size: 9.4736842105263pt;" aria-label="google (3 项)">google</a>
+<a href="/archives/tag/haxe" class="tag-cloud-link tag-link-118 tag-link-position-18" style="font-size: 8pt;" aria-label="haxe (2 项)">haxe</a>
+<a href="/archives/tag/html5" class="tag-cloud-link tag-link-5 tag-link-position-19" style="font-size: 10.701754385965pt;" aria-label="html5 (4 项)">html5</a>
+<a href="/archives/tag/iphone" class="tag-cloud-link tag-link-51 tag-link-position-20" style="font-size: 8pt;" aria-label="iphone (2 项)">iphone</a>
+<a href="/archives/tag/jangaroo" class="tag-cloud-link tag-link-67 tag-link-position-21" style="font-size: 10.701754385965pt;" aria-label="Jangaroo (4 项)">Jangaroo</a>
+<a href="/archives/tag/java" class="tag-cloud-link tag-link-3 tag-link-position-22" style="font-size: 9.4736842105263pt;" aria-label="java (3 项)">java</a>
+<a href="/archives/tag/javascript" class="tag-cloud-link tag-link-68 tag-link-position-23" style="font-size: 8pt;" aria-label="javascript (2 项)">javascript</a>
+<a href="/archives/tag/js" class="tag-cloud-link tag-link-36 tag-link-position-24" style="font-size: 11.684210526316pt;" aria-label="js (5 项)">js</a>
+<a href="/archives/tag/jsp" class="tag-cloud-link tag-link-107 tag-link-position-25" style="font-size: 8pt;" aria-label="jsp (2 项)">jsp</a>
+<a href="/archives/tag/lampp" class="tag-cloud-link tag-link-93 tag-link-position-26" style="font-size: 10.701754385965pt;" aria-label="lampp (4 项)">lampp</a>
+<a href="/archives/tag/laravel" class="tag-cloud-link tag-link-194 tag-link-position-27" style="font-size: 9.4736842105263pt;" aria-label="laravel (3 项)">laravel</a>
+<a href="/archives/tag/linux" class="tag-cloud-link tag-link-32 tag-link-position-28" style="font-size: 15.368421052632pt;" aria-label="linux (11 项)">linux</a>
+<a href="/archives/tag/mac" class="tag-cloud-link tag-link-8 tag-link-position-29" style="font-size: 13.771929824561pt;" aria-label="mac (8 项)">mac</a>
+<a href="/archives/tag/mysql" class="tag-cloud-link tag-link-34 tag-link-position-30" style="font-size: 18.561403508772pt;" aria-label="mysql (21 项)">mysql</a>
+<a href="/archives/tag/php" class="tag-cloud-link tag-link-44 tag-link-position-31" style="font-size: 16.59649122807pt;" aria-label="php (14 项)">php</a>
+<a href="/archives/tag/python" class="tag-cloud-link tag-link-202 tag-link-position-32" style="font-size: 16.228070175439pt;" aria-label="python (13 项)">python</a>
+<a href="/archives/tag/securecrt" class="tag-cloud-link tag-link-99 tag-link-position-33" style="font-size: 9.4736842105263pt;" aria-label="securecrt (3 项)">securecrt</a>
+<a href="/archives/tag/shell" class="tag-cloud-link tag-link-33 tag-link-position-34" style="font-size: 13.157894736842pt;" aria-label="shell (7 项)">shell</a>
+<a href="/archives/tag/swf" class="tag-cloud-link tag-link-13 tag-link-position-35" style="font-size: 9.4736842105263pt;" aria-label="swf (3 项)">swf</a>
+<a href="/archives/tag/ubuntu" class="tag-cloud-link tag-link-136 tag-link-position-36" style="font-size: 10.701754385965pt;" aria-label="ubuntu (4 项)">ubuntu</a>
+<a href="/archives/tag/vps" class="tag-cloud-link tag-link-91 tag-link-position-37" style="font-size: 8pt;" aria-label="vps (2 项)">vps</a>
+<a href="/archives/tag/vue" class="tag-cloud-link tag-link-213 tag-link-position-38" style="font-size: 15.368421052632pt;" aria-label="vue (11 项)">vue</a>
+<a href="/archives/tag/wordpress" class="tag-cloud-link tag-link-10 tag-link-position-39" style="font-size: 8pt;" aria-label="wordpress (2 项)">wordpress</a>
+<a href="/archives/tag/xampp" class="tag-cloud-link tag-link-94 tag-link-position-40" style="font-size: 16.228070175439pt;" aria-label="xampp (13 项)">xampp</a>
+<a href="/archives/tag/yii2" class="tag-cloud-link tag-link-128 tag-link-position-41" style="font-size: 22pt;" aria-label="yii2 (41 项)">yii2</a>
+<a href="/archives/tag/%e4%ba%a7%e5%93%81" class="tag-cloud-link tag-link-64 tag-link-position-42" style="font-size: 8pt;" aria-label="产品 (2 项)">产品</a>
+<a href="/archives/tag/%e6%bb%9a%e5%8a%a8%e6%9d%a1" class="tag-cloud-link tag-link-38 tag-link-position-43" style="font-size: 9.4736842105263pt;" aria-label="滚动条 (3 项)">滚动条</a>
+<a href="/archives/tag/%e7%ab%af%e5%8f%a3" class="tag-cloud-link tag-link-117 tag-link-position-44" style="font-size: 8pt;" aria-label="端口 (2 项)">端口</a>
+<a href="/archives/tag/%e7%b2%92%e5%ad%90" class="tag-cloud-link tag-link-21 tag-link-position-45" style="font-size: 8pt;" aria-label="粒子 (2 项)">粒子</a></div>
+</nav></div></div><div class="widget widget_pages"><div class="widget-content"><h2 class="widget-title subheading heading-size-3">页面</h2><nav aria-label="页面">
+			<ul>
+				<li class="page_item page-item-2696"><a href="/angularjs2%e5%ad%a6%e4%b9%a0%e7%b3%bb%e5%88%97">angularjs4+学习系列</a></li>
+<li class="page_item page-item-6460 current_page_parent"><a href="/arweare%e9%93%be%e4%b8%8a%e7%9a%84%e6%b0%b8%e4%b9%85%e7%bd%91%e7%ab%99">Arweare链上的永久网站</a></li>
+<li class="page_item page-item-5680"><a href="/the-one-year-love-%e5%bf%83%e7%81%b5%e4%b9%8b%e7%ba%a6-%e5%a4%9a%e5%a4%9a%e8%af%b4%e7%b3%bb%e5%88%97%e4%b8%93%e9%a2%98-10%e6%9c%88">The one year love-心灵之约-多多说系列专题-10月</a></li>
+<li class="page_item page-item-5782"><a href="/the-one-year-love-%e5%bf%83%e7%81%b5%e4%b9%8b%e7%ba%a6-%e5%a4%9a%e5%a4%9a%e8%af%b4%e7%b3%bb%e5%88%97%e4%b8%93%e9%a2%98-11%e6%9c%88">The one year love-心灵之约-多多说系列专题-11月</a></li>
+<li class="page_item page-item-5878"><a href="/the-one-year-love-%e5%bf%83%e7%81%b5%e4%b9%8b%e7%ba%a6-%e5%a4%9a%e5%a4%9a%e8%af%b4%e7%b3%bb%e5%88%97%e4%b8%93%e9%a2%98-12%e6%9c%88">The one year love-心灵之约-多多说系列专题-12月</a></li>
+<li class="page_item page-item-6010"><a href="/the-one-year-love-%e5%bf%83%e7%81%b5%e4%b9%8b%e7%ba%a6-%e5%a4%9a%e5%a4%9a%e8%af%b4%e7%b3%bb%e5%88%97%e4%b8%93%e9%a2%98-202401%e6%9c%88">The one year love-心灵之约-多多说系列专题-202401月</a></li>
+<li class="page_item page-item-6140"><a href="/the-one-year-love-%e5%bf%83%e7%81%b5%e4%b9%8b%e7%ba%a6-%e5%a4%9a%e5%a4%9a%e8%af%b4%e7%b3%bb%e5%88%97%e4%b8%93%e9%a2%98-202402%e6%9c%88">The one year love-心灵之约-多多说系列专题-202402月</a></li>
+<li class="page_item page-item-6254"><a href="/the-one-year-love-%e5%bf%83%e7%81%b5%e4%b9%8b%e7%ba%a6-%e5%a4%9a%e5%a4%9a%e8%af%b4%e7%b3%bb%e5%88%97%e4%b8%93%e9%a2%98-202403%e6%9c%88">The one year love-心灵之约-多多说系列专题-202403月</a></li>
+<li class="page_item page-item-4797"><a href="/the-one-year-love-%e5%bf%83%e7%81%b5%e4%b9%8b%e7%ba%a6">The one year love-心灵之约-多多说系列专题-4月</a></li>
+<li class="page_item page-item-5116"><a href="/the-one-year-love-%e5%bf%83%e7%81%b5%e4%b9%8b%e7%ba%a6-%e5%a4%9a%e5%a4%9a%e8%af%b4%e7%b3%bb%e5%88%97%e4%b8%93%e9%a2%98-5%e6%9c%88">The one year love-心灵之约-多多说系列专题-5月</a></li>
+<li class="page_item page-item-5174"><a href="/the-one-year-love-%e5%bf%83%e7%81%b5%e4%b9%8b%e7%ba%a6-%e5%a4%9a%e5%a4%9a%e8%af%b4%e7%b3%bb%e5%88%97%e4%b8%93%e9%a2%98-6%e6%9c%88">The one year love-心灵之约-多多说系列专题-6月</a></li>
+<li class="page_item page-item-5298"><a href="/the-one-year-love-%e5%bf%83%e7%81%b5%e4%b9%8b%e7%ba%a6-%e5%a4%9a%e5%a4%9a%e8%af%b4%e7%b3%bb%e5%88%97%e4%b8%93%e9%a2%98-7%e6%9c%88">The one year love-心灵之约-多多说系列专题-7月</a></li>
+<li class="page_item page-item-5412"><a href="/the-one-year-love-%e5%bf%83%e7%81%b5%e4%b9%8b%e7%ba%a6-%e5%a4%9a%e5%a4%9a%e8%af%b4%e7%b3%bb%e5%88%97%e4%b8%93%e9%a2%98-8%e6%9c%88">The one year love-心灵之约-多多说系列专题-8月</a></li>
+<li class="page_item page-item-5592"><a href="/the-one-year-love-%e5%bf%83%e7%81%b5%e4%b9%8b%e7%ba%a6-%e5%a4%9a%e5%a4%9a%e8%af%b4%e7%b3%bb%e5%88%97%e4%b8%93%e9%a2%98-9%e6%9c%88">The one year love-心灵之约-多多说系列专题-9月</a></li>
+<li class="page_item page-item-2870"><a href="/vue%e7%b3%bb%e5%88%97%e6%95%99%e7%a8%8b">vue学习系列</a></li>
+<li class="page_item page-item-2770"><a href="/yii2%e5%ad%a6%e4%b9%a0%e7%b3%bb%e5%88%97">yii2学习系列</a></li>
+<li class="page_item page-item-6345"><a href="/">养生音乐</a></li>
+<li class="page_item page-item-6400"><a href="/shop">商店</a></li>
+<li class="page_item page-item-6357"><a href="/%e5%a4%9a%e5%a4%9a%e8%af%b4%e4%b8%93%e9%a2%98">多多说专题</a></li>
+<li class="page_item page-item-6403"><a href="/my-account">我的帐户</a></li>
+<li class="page_item page-item-3720"><a href="/%e6%88%91%e7%9a%84%e8%87%aa%e5%aa%92%e4%bd%93">我的自媒体</a></li>
+<li class="page_item page-item-2"><a href="/sample-page">留言版</a></li>
+<li class="page_item page-item-6402"><a href="/checkout">结账</a></li>
+<li class="page_item page-item-6401"><a href="/cart">购物车</a></li>
+			</ul>
+
+			</nav></div></div>							</div>
+
+						
+						
+					</div><!-- .footer-widgets-wrapper -->
+
+				</aside><!-- .footer-widgets-outer-wrapper -->
+
+			
+		</div><!-- .footer-inner -->
+
+	</div><!-- .footer-nav-widgets-wrapper -->
+
+	
+			<footer id="site-footer" class="header-footer-group">
+
+				<div class="section-inner">
+
+					<div class="footer-credits">
+
+						<p class="footer-copyright">©
+							2025							<a href="/">逍遥居</a>
+						</p><!-- .footer-copyright -->
+
+						
+						<p class="powered-by-wordpress">
+							<a href="https://cn.wordpress.org/">
+								由WordPress强力驱动							</a>
+						</p><!-- .powered-by-wordpress -->
+
+					</div><!-- .footer-credits -->
+
+					<a class="to-the-top" href="#site-header">
+						<span class="to-the-top-long">
+							返回顶部<span class="arrow" aria-hidden="true">↑</span>						</span><!-- .to-the-top-long -->
+						<span class="to-the-top-short">
+							向上 <span class="arrow" aria-hidden="true">↑</span>						</span><!-- .to-the-top-short -->
+					</a><!-- .to-the-top -->
+
+				</div><!-- .section-inner -->
+
+			</footer><!-- #site-footer -->
+
+		<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"\/*"},{"not":{"href_matches":["\/wp-*.php","\/wp-admin\/*","\/wp-content\/uploads\/*","\/wp-content\/*","\/wp-content\/plugins\/*","\/wp-content\/themes\/twentytwenty\/*","\/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+
+	</body>
+</html>
